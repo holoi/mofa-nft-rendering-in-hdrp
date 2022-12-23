@@ -463,7 +463,7 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 11
+  m_GraphVersion: 12
   m_ResourceVersion: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
@@ -479,7 +479,6 @@ VisualEffectResource:
     m_RendererSettings:
       motionVectorGenerationMode: 1
       shadowCastingMode: 0
-      rayTracingMode: 0
       receiveShadows: 0
       reflectionProbeUsage: 0
       lightProbeUsage: 0
@@ -1547,7 +1546,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614849}
   m_ExposedName: Color Gradient
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -1666,11 +1665,7 @@ MonoBehaviour:
   castShadows: 0
   useExposureWeight: 0
   flipbookLayout: 0
-  enableRayTracing: 0
-  decimationFactor: 1
-  raytracedScaleMode: 0
   needsOwnSort: 0
-  needsOwnAabbBuffer: 0
   shaderGraph: {fileID: 0}
   materialSettings:
     m_PropertyNames: []
@@ -1735,7 +1730,6 @@ MonoBehaviour:
   m_ActivationSlot: {fileID: 8926484042661615388}
   mode: 6
   axes: 4
-  faceRay: 1
 --- !u!114 &8926484042661614865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1881,7 +1875,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614889}
   m_ExposedName: Color Over Life
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:
@@ -1961,7 +1955,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614892}
   m_ExposedName: SDF A
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 9
   m_Category: SDF
   m_Min:
     m_Type:
@@ -2206,7 +2200,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615017}
   m_ExposedName: Brightness
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 6
   m_Category: 
   m_Min:
     m_Type:
@@ -2954,7 +2948,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615213}
   m_ExposedName: Transform A
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 12
   m_Category: SDF
   m_Min:
     m_Type:
@@ -4618,7 +4612,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615457}
   m_ExposedName: Transform
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 5
   m_Category: SDF
   m_Min:
     m_Type:
@@ -5112,7 +5106,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615474}
   m_ExposedName: Intensity
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 7
   m_Category: SDF
   m_Min:
     m_Type:
@@ -5289,7 +5283,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615482}
   m_ExposedName: Size
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 8
   m_Category: 
   m_Min:
     m_Type:
@@ -5369,7 +5363,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615487}
   m_ExposedName: Intensity A
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 13
   m_Category: SDF
   m_Min:
     m_Type:
@@ -5449,7 +5443,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615496}
   m_ExposedName: LifeTime
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -5969,7 +5963,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615514}
   m_ExposedName: Set Y by Speed
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 10
   m_Category: 
   m_Min:
     m_Type:
@@ -6247,7 +6241,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615525}
   m_ExposedName: Alpha Over Life
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 11
   m_Category: 
   m_Min:
     m_Type:
@@ -7039,7 +7033,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615548}
   m_ExposedName: SDF B
   m_Exposed: 1
-  m_Order: 13
+  m_Order: 14
   m_Category: SDF
   m_Min:
     m_Type:
@@ -7119,7 +7113,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615550}
   m_ExposedName: Transform B
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 15
   m_Category: SDF
   m_Min:
     m_Type:
@@ -7607,7 +7601,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615564}
   m_ExposedName: Intensity B
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 16
   m_Category: SDF
   m_Min:
     m_Type:
@@ -9044,7 +9038,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615643}
   m_ExposedName: Spawn Rate
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
