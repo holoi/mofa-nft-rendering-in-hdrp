@@ -25,7 +25,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"49cb5aa34272b034d8b754c65d9cdbfa","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"29f695081a39643659bdca5b78e68c7d","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -33,7 +33,8 @@ MonoBehaviour:
       m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   m_Direction: 0
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 8926484042661615401}
 --- !u!114 &114132708072828626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -182,11 +183,26 @@ MonoBehaviour:
   - {fileID: 8926484042661615376}
   - {fileID: 8926484042661615378}
   - {fileID: 8926484042661615385}
+  - {fileID: 8926484042661615400}
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_UIInfos: {fileID: 114743013096321618}
   m_ParameterInfo:
+  - name: Texture2D
+    path: Texture2D
+    tooltip: 
+    sheetType: m_NamedObject
+    realType: Texture2D
+    defaultValue:
+      m_Type:
+        m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"29f695081a39643659bdca5b78e68c7d","type":3}}'
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
   - name: Vector Field
     path: 
     tooltip: 
@@ -1595,7 +1611,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614694}
       inputSlot: {fileID: 8926484042661614738}
-    position: {x: -355, y: 1855.5}
+    position: {x: -366, y: 1861}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614694
@@ -4973,7 +4989,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615246}
       inputSlot: {fileID: 8926484042661615314}
-    position: {x: -369.5, y: 3280}
+    position: {x: -376, y: 3206}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615246
@@ -5869,7 +5885,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114231982420006628}
   m_Children: []
-  m_UIPosition: {x: -188, y: 3212}
+  m_UIPosition: {x: -194, y: 3138}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6032,7 +6048,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615320}
       inputSlot: {fileID: 8926484042661615285}
-    position: {x: -227, y: 2623}
+    position: {x: -226.5, y: 2742.5}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615320
@@ -6209,7 +6225,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615328}
       inputSlot: {fileID: 8926484042661615322}
-    position: {x: -152.5, y: 2482.5}
+    position: {x: -152, y: 2592}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615328
@@ -6425,14 +6441,14 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661615330}
     - outputSlot: {fileID: 8926484042661615340}
       inputSlot: {fileID: 8926484042661615342}
-    position: {x: -718, y: 961}
+    position: {x: -524, y: 1082}
     expandedSlots: []
     expanded: 0
   - m_Id: 1
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615340}
       inputSlot: {fileID: 8926484042661615395}
-    position: {x: -161.25294, y: 2884.7107}
+    position: {x: -227, y: 2897}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615340
@@ -6487,7 +6503,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114231982420006628}
   m_Children: []
-  m_UIPosition: {x: -296, y: 1153}
+  m_UIPosition: {x: -224, y: 1153}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -7608,7 +7624,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615386}
       inputSlot: {fileID: 8926484042661615338}
-    position: {x: -222.5, y: 3105.5}
+    position: {x: -143.5, y: 3087}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615386
@@ -7875,3 +7891,83 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
   m_LinkedSlots: []
+--- !u!114 &8926484042661615400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330e0fca1717dde4aaa144f48232aa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 114231982420006628}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_InputSlots: []
+  m_OutputSlots:
+  - {fileID: 8926484042661615401}
+  m_ExposedName: Texture2D
+  m_Exposed: 1
+  m_Order: 16
+  m_Category: 
+  m_Min:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_Max:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_IsOutput: 0
+  m_EnumValues: []
+  m_ValueFilter: 0
+  m_Tooltip: 
+  m_Nodes:
+  - m_Id: 0
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661615401}
+      inputSlot: {fileID: 114108549442162936}
+    position: {x: -199.44997, y: 2390.3252}
+    expandedSlots: []
+    expanded: 0
+--- !u!114 &8926484042661615401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a331b1d86cc8d4aa106ccbe0da5852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661615401}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661615400}
+    m_Value:
+      m_Type:
+        m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"29f695081a39643659bdca5b78e68c7d","type":3}}'
+    m_Space: 2147483647
+  m_Property:
+    name: o
+    m_serializedType:
+      m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  m_Direction: 1
+  m_LinkedSlots:
+  - {fileID: 114108549442162936}
