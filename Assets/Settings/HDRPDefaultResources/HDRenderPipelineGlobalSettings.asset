@@ -87,7 +87,9 @@ MonoBehaviour:
   decalLayerName7: Decal Layer 7
   shaderVariantLogLevel: 0
   lensAttenuationMode: 0
-  diffusionProfileSettingsList: []
+  diffusionProfileSettingsList:
+  - {fileID: 11400000, guid: d325d93c9fee240f1b5120805154fec0, type: 2}
+  - {fileID: 11400000, guid: 709077fc3190c4aaeaca504f38511132, type: 2}
   rendererListCulling: 0
   DLSSProjectId: 000000
   useDLSSCustomProjectId: 0
