@@ -52,7 +52,7 @@ MonoBehaviour:
     x: 330
     y: 41
     width: 3290
-    height: 2408
+    height: 2396
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1081,7 +1081,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615681}
   m_ExposedName: SDF
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: Shape
   m_Min:
     m_Type:
@@ -3010,7 +3010,6 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children:
-  - {fileID: 8926484042661615760}
   - {fileID: 8926484042661616384}
   - {fileID: 8926484042661616457}
   m_UIPosition: {x: 3196, y: 1931}
@@ -3026,7 +3025,7 @@ MonoBehaviour:
       slotIndex: 0
   m_OutputFlowSlot:
   - link: []
-  blendMode: 0
+  blendMode: 2
   useAlphaClipping: 0
   generateMotionVector: 0
   excludeFromTAA: 0
@@ -3067,69 +3066,6 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   opaqueRenderQueue: 0
   transparentRenderQueue: 1
---- !u!114 &8926484042661615760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01ec2c1930009b04ea08905b47262415, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 8926484042661615757}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 2}
-  m_UICollapsed: 0
-  m_UISuperCollapsed: 0
-  m_InputSlots:
-  - {fileID: 8926484042661615761}
-  m_OutputSlots: []
-  m_Disabled: 1
-  attribute: color
-  Composition: 2
-  AlphaComposition: 0
-  SampleMode: 0
-  Mode: 1
-  ColorMode: 1
-  channels: 6
---- !u!114 &8926484042661615761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76f778ff57c4e8145b9681fe3268d8e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661615761}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661615760}
-    m_Value:
-      m_Type:
-        m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.4966611862182619,"g":2.4966611862182619,"b":2.4966611862182619,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.21470969915390016},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
-    m_Space: 2147483647
-  m_Property:
-    name: Color
-    m_serializedType:
-      m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  m_Direction: 0
-  m_LinkedSlots: []
 --- !u!114 &8926484042661615775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6744,7 +6680,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.017309999093413354,"y":0.05310000106692314,"z":0.012299999594688416}'
+      m_SerializableObject: '{"x":1.3200000524520875,"y":3.119999885559082,"z":2.0899999141693117}'
     m_Space: 2147483647
   m_Property:
     name: Speed
@@ -7985,7 +7921,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 3002, y: 2216}
+  m_UIPosition: {x: 3002, y: 2046}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8129,7 +8065,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616398}
   m_ExposedName: Brightness
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 3
   m_Category: Display
   m_Min:
     m_Type:
@@ -8148,7 +8084,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616398}
       inputSlot: {fileID: 8926484042661616392}
-    position: {x: 2816, y: 2241}
+    position: {x: 2816, y: 2071}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616398
@@ -8209,7 +8145,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616427}
   m_ExposedName: Transform
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: Shape
   m_Min:
     m_Type:
@@ -8697,7 +8633,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616444}
   m_ExposedName: Spawn Rate
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 5
   m_Category: Spawn
   m_Min:
     m_Type:
@@ -8841,7 +8777,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616487}
   m_ExposedName: Spawn Transform
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 8
   m_Category: Spawn
   m_Min:
     m_Type:
@@ -9329,7 +9265,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616510}
   m_ExposedName: Turblence
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: Shape
   m_Min:
     m_Type:
@@ -9517,7 +9453,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616533}
   m_ExposedName: Conform Speed Force DIstan Force
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Shape
   m_Min:
     m_Type:
@@ -9542,7 +9478,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661615720}
     - outputSlot: {fileID: 8926484042661616537}
       inputSlot: {fileID: 8926484042661615721}
-    position: {x: 2123.5, y: 1745}
+    position: {x: 2046, y: 1773}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616533
@@ -9742,7 +9678,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616542}
   m_ExposedName: Alpha Over Life
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 6
   m_Category: Display
   m_Min:
     m_Type:
@@ -9761,7 +9697,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616542}
       inputSlot: {fileID: 8926484042661616458}
-    position: {x: 2901, y: 2398}
+    position: {x: 2980.5, y: 2264}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616542
