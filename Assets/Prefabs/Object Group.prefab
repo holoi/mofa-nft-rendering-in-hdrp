@@ -294,6 +294,394 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &452965158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452965159}
+  - component: {fileID: 452965161}
+  - component: {fileID: 452965160}
+  m_Layer: 0
+  m_Name: V_VectorField_MysticArt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &452965159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452965158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1168677006}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &452965161
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452965158}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: d61439a216366ef4aa9a2efb3999396e, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 0.01
+        m_Name: Size
+        m_Overridden: 1
+      - m_Value: 10
+        m_Name: Brightness
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Intensity B
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Intensity A
+        m_Overridden: 1
+      - m_Value: 12
+        m_Name: Intensity
+        m_Overridden: 1
+      - m_Value: 50000
+        m_Name: Spawn Rate
+        m_Overridden: 1
+      - m_Value: 12
+        m_Name: Blend
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array:
+      - m_Value: {x: 1.5, y: 2.5}
+        m_Name: LifeTime
+        m_Overridden: 1
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: -0.04, y: -0.15, z: 0}
+        m_Name: VectorFieldTransform_02_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: VectorFieldTransform_02_angles
+        m_Overridden: 1
+      - m_Value: {x: 5, y: 5, z: 5}
+        m_Name: VectorFieldTransform_02_scale
+        m_Overridden: 1
+      - m_Value: {x: -0.1, y: 0.05, z: 0}
+        m_Name: VectorFieldTransform_01_position
+        m_Overridden: 1
+      - m_Value: {x: 5.4, y: 5.4, z: 5.4}
+        m_Name: VectorFieldTransform_01_scale
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 0.1, y: 0.1, z: 0}
+        m_Name: Transform A_position
+        m_Overridden: 1
+      - m_Value: {x: 5, y: 5, z: 6}
+        m_Name: Transform A_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 90}
+        m_Name: Transform A_angles
+        m_Overridden: 1
+      - m_Value: {x: 5, y: 5, z: 6}
+        m_Name: Transform B_scale
+        m_Overridden: 1
+      - m_Value: {x: -0.1, y: -0.1, z: 0}
+        m_Name: Transform B_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 90}
+        m_Name: VectorFieldTransform_01_angles
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.5033689
+            value: 1.000448
+            inSlope: 3.9624884
+            outSlope: 3.9624884
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.061500438
+          - serializedVersion: 3
+            time: 1
+            value: 1.7783393
+            inSlope: -0.006825861
+            outSlope: -0.006825861
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.26697767
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Scale y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.24657723
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Set Y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.48785666
+            inSlope: -1.3145945
+            outSlope: -1.3145945
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.29266155
+            value: 0.10312539
+            inSlope: 0.17088854
+            outSlope: 0.17088854
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.48065028
+            value: 0.4145046
+            inSlope: 0.89880496
+            outSlope: 0.89880496
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.48785666
+            inSlope: 0.1412383
+            outSlope: 0.1412383
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha AnimationCurve
+        m_Overridden: 1
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.31540126, g: 0.015770067, b: 0, a: 1}
+          key1: {r: 0, g: 0, b: 0, a: 1}
+          key2: {r: 0.48235294, g: 0.024117652, b: 0, a: 0.03529412}
+          key3: {r: 3.7019606, g: 0.19381993, b: 0, a: 0.03529412}
+          key4: {r: 1.8509804, g: 0.09411765, b: 0, a: 0}
+          key5: {r: 15.396227, g: 10.519808, b: 0.15396212, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 1735
+          ctime2: 8288
+          ctime3: 40092
+          ctime4: 65535
+          ctime5: 65535
+          ctime6: 61680
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 65535
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 2
+        m_Name: Blend Color Over Life
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 0.12041885, b: 0, a: 1}
+          key1: {r: 1, g: 0.01999998, b: 0.49873012, a: 1}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0.0070968736, g: 0.0008545973, b: 0, a: 0}
+          key4: {r: 1, g: 0.050000012, b: 0, a: 0}
+          key5: {r: 1, g: 0.100000024, b: 0, a: 0}
+          key6: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 11758
+          ctime2: 14071
+          ctime3: 28527
+          ctime4: 58018
+          ctime5: 65150
+          ctime6: 65535
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 6
+          m_NumAlphaKeys: 2
+        m_Name: Color Gradient
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0, g: 0, b: 0, a: 1}
+          key1: {r: 0.082282715, g: 0.06480328, b: 0.5209957, a: 1}
+          key2: {r: 1.0557042, g: 0.15920061, b: 2.9350598, a: 0.7019608}
+          key3: {r: 3.1245537, g: 0.10137938, b: 0.5454294, a: 0.03529412}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 23214
+          ctime2: 33103
+          ctime3: 43494
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 55143
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 2
+        m_Name: Color Over Life
+        m_Overridden: 1
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
+          type: 3}
+        m_Name: VectorField_Surface
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
+        m_Name: VectorField_01
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
+        m_Name: VectorField_02
+        m_Overridden: 1
+      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
+          type: 3}
+        m_Name: BaseSDF
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
+        m_Name: SDF A
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
+        m_Name: SDF B
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 17e589197beab495eba4f797417a8bec, type: 3}
+        m_Name: Texture2D
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &452965160
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452965158}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &568352781
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,7 +765,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 5
+      - m_Value: 3
         m_Name: Brightness
         m_Overridden: 1
       - m_Value: 512
@@ -463,7 +851,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616382514}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -557,7 +945,7 @@ VisualEffect:
       - m_Value: 32
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: 4
+      - m_Value: 1.6
         m_Name: Brightness
         m_Overridden: 1
       - m_Value: 1
@@ -803,17 +1191,17 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0, g: 0.77254903, b: 0.41466373, a: 1}
-          key1: {r: 0.0044619534, g: 0.32572088, b: 0.879, a: 1}
-          key2: {r: 0.20392157, g: 0.14509805, b: 0.7490196, a: 0}
-          key3: {r: 0, g: 32, b: 26.710052, a: 0}
+          key0: {r: 0, g: 197.77255, b: 106.41569, a: 1}
+          key1: {r: 0, g: 0.77254903, b: 0.41466373, a: 1}
+          key2: {r: 0, g: 0.77254903, b: 0.41466373, a: 0}
+          key3: {r: 0.0044619534, g: 0.32572088, b: 0.879, a: 0}
           key4: {r: 0.31197995, g: 0, b: 0.0013795069, a: 0}
           key5: {r: 0, g: 0, b: 0, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 29491
-          ctime1: 65535
-          ctime2: 52814
+          ctime0: 0
+          ctime1: 1928
+          ctime2: 29491
           ctime3: 65535
           ctime4: 65535
           ctime5: 0
@@ -828,7 +1216,7 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_NumColorKeys: 2
+          m_NumColorKeys: 4
           m_NumAlphaKeys: 2
         m_Name: Add Random Color
         m_Overridden: 1
@@ -888,7 +1276,495 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670627184}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &723463147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723463148}
+  - component: {fileID: 723463150}
+  - component: {fileID: 723463149}
+  m_Layer: 0
+  m_Name: V_VectorField_MysticArt (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723463148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723463147}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 6806275493326199153}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &723463150
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723463147}
   m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: e0318ad5e964b493191832e6eadfe616, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 0.01
+        m_Name: Size
+        m_Overridden: 1
+      - m_Value: 0.7
+        m_Name: Brightness
+        m_Overridden: 1
+      - m_Value: 3
+        m_Name: Intensity B
+        m_Overridden: 1
+      - m_Value: 3
+        m_Name: Intensity A
+        m_Overridden: 1
+      - m_Value: 12
+        m_Name: Intensity
+        m_Overridden: 1
+      - m_Value: 150000
+        m_Name: Spawn Rate
+        m_Overridden: 1
+      - m_Value: 12
+        m_Name: Blend
+        m_Overridden: 1
+      - m_Value: 0.005
+        m_Name: Particle Size
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array:
+      - m_Value: {x: 1.5, y: 2.5}
+        m_Name: LifeTime
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1.5}
+        m_Name: Particle LifeTime
+        m_Overridden: 1
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: -0.04, y: -0.15, z: 0}
+        m_Name: VectorFieldTransform_02_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: VectorFieldTransform_02_angles
+        m_Overridden: 1
+      - m_Value: {x: 5, y: 5, z: 5}
+        m_Name: VectorFieldTransform_02_scale
+        m_Overridden: 1
+      - m_Value: {x: -0.1, y: 0.05, z: 0}
+        m_Name: VectorFieldTransform_01_position
+        m_Overridden: 1
+      - m_Value: {x: 5.4, y: 5.4, z: 5.4}
+        m_Name: VectorFieldTransform_01_scale
+        m_Overridden: 1
+      - m_Value: {x: 0.2, y: 0.2, z: 0.2}
+        m_Name: Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 90, z: 0}
+        m_Name: Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform A_position
+        m_Overridden: 1
+      - m_Value: {x: 1.6, y: 1.6, z: 1}
+        m_Name: Transform A_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform A_angles
+        m_Overridden: 1
+      - m_Value: {x: 1.7, y: 1.7, z: 2}
+        m_Name: Transform B_scale
+        m_Overridden: 1
+      - m_Value: {x: -0.02, y: 0.03, z: 0}
+        m_Name: Transform B_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 90}
+        m_Name: VectorFieldTransform_01_angles
+        m_Overridden: 1
+      - m_Value: {x: 1.5, y: 1.5, z: 1.5}
+        m_Name: Spawn Box Size
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array:
+      - m_Value: {x: 0, y: 0, z: 0.1, w: 0}
+        m_Name: Weapon SDF Conform Factors
+        m_Overridden: 1
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.5033689
+            value: 1.000448
+            inSlope: 3.9624884
+            outSlope: 3.9624884
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.061500438
+          - serializedVersion: 3
+            time: 1
+            value: 1.7783393
+            inSlope: -0.006825861
+            outSlope: -0.006825861
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.26697767
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Scale y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.8994173
+            inSlope: 5.5245786
+            outSlope: 5.5245786
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.3580748
+          - serializedVersion: 3
+            time: 1
+            value: 5.3775425
+            inSlope: 3.7373695
+            outSlope: 3.7373695
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.27250904
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Set Y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.48785666
+            inSlope: -1.3145945
+            outSlope: -1.3145945
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.29266155
+            value: 0.10312539
+            inSlope: 0.17088854
+            outSlope: 0.17088854
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.48065028
+            value: 0.4145046
+            inSlope: 0.89880496
+            outSlope: 0.89880496
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.48785666
+            inSlope: 0.1412383
+            outSlope: 0.1412383
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha AnimationCurve
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.49132162
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1.4450575
+            outSlope: 1.4450575
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.076325595
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha By Speed
+        m_Overridden: 1
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.31540126, g: 0.015770067, b: 0, a: 1}
+          key1: {r: 0, g: 0, b: 0, a: 1}
+          key2: {r: 0.48235294, g: 0.024117652, b: 0, a: 0.03529412}
+          key3: {r: 3.7019606, g: 0.19381993, b: 0, a: 0.03529412}
+          key4: {r: 1.8509804, g: 0.09411765, b: 0, a: 0}
+          key5: {r: 15.396227, g: 10.519808, b: 0.15396212, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 1735
+          ctime2: 8288
+          ctime3: 40092
+          ctime4: 65535
+          ctime5: 65535
+          ctime6: 61680
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 65535
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 2
+        m_Name: Blend Color Over Life
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 0.12041885, b: 0, a: 1}
+          key1: {r: 1, g: 0.01999998, b: 0.49873012, a: 1}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0.0070968736, g: 0.0008545973, b: 0, a: 0}
+          key4: {r: 1, g: 0.050000012, b: 0, a: 0}
+          key5: {r: 1, g: 0.100000024, b: 0, a: 0}
+          key6: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 11758
+          ctime2: 14071
+          ctime3: 28527
+          ctime4: 58018
+          ctime5: 65150
+          ctime6: 65535
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 6
+          m_NumAlphaKeys: 2
+        m_Name: Color Gradient
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0, g: 0, b: 0, a: 1}
+          key1: {r: 0.082282715, g: 0.06480328, b: 0.5209957, a: 1}
+          key2: {r: 1.0557042, g: 0.15920061, b: 2.9350598, a: 0.7019608}
+          key3: {r: 3.1245537, g: 0.10137938, b: 0.5454294, a: 0.03529412}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 23214
+          ctime2: 33103
+          ctime3: 43494
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 55143
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 2
+        m_Name: Color Over Life
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 766.9961, g: 538.102, b: 0, a: 1}
+          key1: {r: 1, g: 0.7817019, b: 0, a: 1}
+          key2: {r: 1, g: 0.20881325, b: 0, a: 0}
+          key3: {r: 47.937256, g: 2.509804, b: 0, a: 0}
+          key4: {r: 0.92158204, g: 0.0027317447, b: 0.20517637, a: 0}
+          key5: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 578
+          ctime2: 64571
+          ctime3: 65535
+          ctime4: 50693
+          ctime5: 65535
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 2
+        m_Name: Add Random Color
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.9254902, g: 0.67874247, b: 0.0039215744, a: 1}
+          key1: {r: 1, g: 0.18808784, b: 0, a: 1}
+          key2: {r: 1, g: 0.15023644, b: 0, a: 0.8}
+          key3: {r: 1, g: 0, b: 0, a: 0}
+          key4: {r: 0.92158204, g: 0.0027317447, b: 0.20517637, a: 0}
+          key5: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 771
+          ctime1: 7325
+          ctime2: 18119
+          ctime3: 30069
+          ctime4: 50693
+          ctime5: 65535
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 52428
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 6
+          m_NumAlphaKeys: 2
+        m_Name: Add Color Over Life
+        m_Overridden: 1
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
+          type: 3}
+        m_Name: VectorField_Surface
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
+        m_Name: VectorField_01
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
+        m_Name: VectorField_02
+        m_Overridden: 1
+      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
+          type: 3}
+        m_Name: BaseSDF
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
+        m_Name: SDF A
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
+        m_Name: SDF B
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 17e589197beab495eba4f797417a8bec, type: 3}
+        m_Name: Texture2D
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &723463149
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723463147}
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1231,7 +2107,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 75000
+      - m_Value: 150000
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 0.008
@@ -1243,7 +2119,7 @@ VisualEffect:
       - m_Value: 32
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: -0.6
+      - m_Value: 0
         m_Name: Brightness
         m_Overridden: 1
       - m_Value: 1
@@ -1498,8 +2374,8 @@ VisualEffect:
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 9638
-          ctime2: 60716
+          ctime1: 964
+          ctime2: 64379
           ctime3: 65535
           ctime4: 65535
           ctime5: 0
@@ -1774,6 +2650,61 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1168677005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1168677006}
+  - component: {fileID: 1168677007}
+  m_Layer: 0
+  m_Name: Time Stone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1168677006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168677005}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 452965159}
+  - {fileID: 1438231518}
+  - {fileID: 4842842519404417753}
+  m_Father: {fileID: 6806275491481695803}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1168677007
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168677005}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6529d788cfa3245c68c51d665f652633, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1230408190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,6 +2738,494 @@ Transform:
   m_Father: {fileID: 6806275491481695803}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1438231517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438231518}
+  - component: {fileID: 1438231520}
+  - component: {fileID: 1438231519}
+  m_Layer: 0
+  m_Name: V_VectorField_MysticArt (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1438231518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438231517}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1168677006}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &1438231520
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438231517}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: e0318ad5e964b493191832e6eadfe616, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 0.01
+        m_Name: Size
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Brightness
+        m_Overridden: 1
+      - m_Value: -3
+        m_Name: Intensity B
+        m_Overridden: 1
+      - m_Value: 3
+        m_Name: Intensity A
+        m_Overridden: 1
+      - m_Value: 12
+        m_Name: Intensity
+        m_Overridden: 1
+      - m_Value: 150000
+        m_Name: Spawn Rate
+        m_Overridden: 1
+      - m_Value: 12
+        m_Name: Blend
+        m_Overridden: 1
+      - m_Value: 0.005
+        m_Name: Particle Size
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array:
+      - m_Value: {x: 1.5, y: 2.5}
+        m_Name: LifeTime
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1.5}
+        m_Name: Particle LifeTime
+        m_Overridden: 1
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: -0.04, y: -0.15, z: 0}
+        m_Name: VectorFieldTransform_02_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: VectorFieldTransform_02_angles
+        m_Overridden: 1
+      - m_Value: {x: 5, y: 5, z: 5}
+        m_Name: VectorFieldTransform_02_scale
+        m_Overridden: 1
+      - m_Value: {x: -0.1, y: 0.05, z: 0}
+        m_Name: VectorFieldTransform_01_position
+        m_Overridden: 1
+      - m_Value: {x: 5.4, y: 5.4, z: 5.4}
+        m_Name: VectorFieldTransform_01_scale
+        m_Overridden: 1
+      - m_Value: {x: 0.2, y: 0.2, z: 0.2}
+        m_Name: Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 90, z: 0}
+        m_Name: Transform_angles
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform A_position
+        m_Overridden: 1
+      - m_Value: {x: 1.6, y: 1.6, z: 1}
+        m_Name: Transform A_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Transform A_angles
+        m_Overridden: 1
+      - m_Value: {x: 1.7, y: 1.7, z: 2}
+        m_Name: Transform B_scale
+        m_Overridden: 1
+      - m_Value: {x: -0.02, y: 0.03, z: 0}
+        m_Name: Transform B_position
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 90}
+        m_Name: VectorFieldTransform_01_angles
+        m_Overridden: 1
+      - m_Value: {x: 1.5, y: 1.5, z: 1.5}
+        m_Name: Spawn Box Size
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array:
+      - m_Value: {x: 0, y: 0, z: 0.1, w: 0}
+        m_Name: Weapon SDF Conform Factors
+        m_Overridden: 1
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.5033689
+            value: 1.000448
+            inSlope: 3.9624884
+            outSlope: 3.9624884
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.061500438
+          - serializedVersion: 3
+            time: 1
+            value: 1.7783393
+            inSlope: -0.006825861
+            outSlope: -0.006825861
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.26697767
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Scale y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.8994173
+            inSlope: 5.5245786
+            outSlope: 5.5245786
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.3580748
+          - serializedVersion: 3
+            time: 1
+            value: 5.3775425
+            inSlope: 3.7373695
+            outSlope: 3.7373695
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.27250904
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Set Y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.48785666
+            inSlope: -1.3145945
+            outSlope: -1.3145945
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.29266155
+            value: 0.10312539
+            inSlope: 0.17088854
+            outSlope: 0.17088854
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.48065028
+            value: 0.4145046
+            inSlope: 0.89880496
+            outSlope: 0.89880496
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.48785666
+            inSlope: 0.1412383
+            outSlope: 0.1412383
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha AnimationCurve
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.49132162
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1.4450575
+            outSlope: 1.4450575
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.076325595
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha By Speed
+        m_Overridden: 1
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0.31540126, g: 0.015770067, b: 0, a: 1}
+          key1: {r: 0, g: 0, b: 0, a: 1}
+          key2: {r: 0.48235294, g: 0.024117652, b: 0, a: 0.03529412}
+          key3: {r: 3.7019606, g: 0.19381993, b: 0, a: 0.03529412}
+          key4: {r: 1.8509804, g: 0.09411765, b: 0, a: 0}
+          key5: {r: 15.396227, g: 10.519808, b: 0.15396212, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 1735
+          ctime2: 8288
+          ctime3: 40092
+          ctime4: 65535
+          ctime5: 65535
+          ctime6: 61680
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 65535
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 2
+        m_Name: Blend Color Over Life
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1, g: 0.12041885, b: 0, a: 1}
+          key1: {r: 1, g: 0.01999998, b: 0.49873012, a: 1}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0.0070968736, g: 0.0008545973, b: 0, a: 0}
+          key4: {r: 1, g: 0.050000012, b: 0, a: 0}
+          key5: {r: 1, g: 0.100000024, b: 0, a: 0}
+          key6: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 11758
+          ctime2: 14071
+          ctime3: 28527
+          ctime4: 58018
+          ctime5: 65150
+          ctime6: 65535
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 6
+          m_NumAlphaKeys: 2
+        m_Name: Color Gradient
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0, g: 0, b: 0, a: 1}
+          key1: {r: 0.082282715, g: 0.06480328, b: 0.5209957, a: 1}
+          key2: {r: 1.0557042, g: 0.15920061, b: 2.9350598, a: 0.7019608}
+          key3: {r: 3.1245537, g: 0.10137938, b: 0.5454294, a: 0.03529412}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 23214
+          ctime2: 33103
+          ctime3: 43494
+          ctime4: 65535
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 55143
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 2
+        m_Name: Color Over Life
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0, g: 766.9961, b: 86.295616, a: 1}
+          key1: {r: 0, g: 1, b: 0.0056221485, a: 1}
+          key2: {r: 0, g: 1, b: 0.29680824, a: 0}
+          key3: {r: 0, g: 47.937256, b: 16.759428, a: 0}
+          key4: {r: 0.92158204, g: 0.0027317447, b: 0.20517637, a: 0}
+          key5: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 578
+          ctime2: 64571
+          ctime3: 65535
+          ctime4: 50693
+          ctime5: 65535
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 4
+          m_NumAlphaKeys: 2
+        m_Name: Add Random Color
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 0, g: 0.77254903, b: 0.41466373, a: 1}
+          key1: {r: 0.0044619534, g: 0.32572088, b: 0.879, a: 1}
+          key2: {r: 1, g: 0.15023644, b: 0, a: 0.8}
+          key3: {r: 1, g: 0, b: 0, a: 0}
+          key4: {r: 0.92158204, g: 0.0027317447, b: 0.20517637, a: 0}
+          key5: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 29491
+          ctime1: 65535
+          ctime2: 18119
+          ctime3: 30069
+          ctime4: 50693
+          ctime5: 65535
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 52428
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        m_Name: Add Color Over Life
+        m_Overridden: 1
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
+          type: 3}
+        m_Name: VectorField_Surface
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
+        m_Name: VectorField_01
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
+        m_Name: VectorField_02
+        m_Overridden: 1
+      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
+          type: 3}
+        m_Name: BaseSDF
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
+        m_Name: SDF A
+        m_Overridden: 1
+      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
+        m_Name: SDF B
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 17e589197beab495eba4f797417a8bec, type: 3}
+        m_Name: Texture2D
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &1438231519
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438231517}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1473106964
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,7 +3854,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 70000
+      - m_Value: 150000
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 0.008
@@ -2447,7 +3866,7 @@ VisualEffect:
       - m_Value: 32
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 4
         m_Name: Brightness
         m_Overridden: 1
       - m_Value: 1
@@ -2566,21 +3985,21 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0
-            value: 1
+            value: 0.4873051
             inSlope: 0
             outSlope: 0
-            tangentMode: 34
+            tangentMode: 0
             weightedMode: 0
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
             time: 1
             value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 34
+            inSlope: 1.5692027
+            outSlope: 1.5692027
+            tangentMode: 0
             weightedMode: 0
-            inWeight: 0
+            inWeight: 0.095983446
             outWeight: 0
           m_PreInfinity: 2
           m_PostInfinity: 2
@@ -2684,20 +4103,20 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 337.79413, g: 305.96014, b: 145.02156, a: 1}
-          key1: {r: 7.6523557, g: 3.7660809, b: 0.080129385, a: 1}
-          key2: {r: 7.150219, g: 3.2945862, b: 0.074871406, a: 0}
-          key3: {r: 15.070258, g: 0.47341126, b: 0.15780376, a: 0}
-          key4: {r: 0.31197995, g: 0, b: 0.0013795069, a: 0}
-          key5: {r: 0, g: 0, b: 0, a: 0}
+          key0: {r: 511.99994, g: 463.74866, b: 219.8115, a: 1}
+          key1: {r: 2.5541239, g: 1.243631, b: 0, a: 1}
+          key2: {r: 1, g: 0.4627451, b: 0, a: 0}
+          key3: {r: 1, g: 0.031413615, b: 0.015706778, a: 0}
+          key4: {r: 0.6603774, g: 0, b: 0, a: 0}
+          key5: {r: 0.31197995, g: 0, b: 0.0013795069, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 0
-          ctime1: 4433
+          ctime0: 193
+          ctime1: 578
           ctime2: 19661
-          ctime3: 25058
-          ctime4: 65535
-          ctime5: 0
+          ctime3: 23516
+          ctime4: 65342
+          ctime5: 65535
           ctime6: 0
           ctime7: 0
           atime0: 0
@@ -2716,7 +4135,7 @@ VisualEffect:
       - m_Value:
           serializedVersion: 2
           key0: {r: 0, g: 0, b: 0, a: 1}
-          key1: {r: 1, g: 1, b: 1, a: 1}
+          key1: {r: 0, g: 0, b: 0, a: 1}
           key2: {r: 0, g: 32.314335, b: 44.17255, a: 1}
           key3: {r: 0, g: 32.314335, b: 44.17255, a: 0}
           key4: {r: 0, g: 32.314335, b: 44.17255, a: 0}
@@ -2854,22 +4273,22 @@ VisualEffect:
       - m_Value: 0.016
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 4
+      - m_Value: 3
         m_Name: Brightness
         m_Overridden: 1
-      - m_Value: 0.6
+      - m_Value: 2
         m_Name: Intensity B
         m_Overridden: 1
       - m_Value: 2
         m_Name: Intensity A
         m_Overridden: 1
-      - m_Value: 24
+      - m_Value: 12
         m_Name: Intensity
         m_Overridden: 1
       - m_Value: 60000
         m_Name: Spawn Rate
         m_Overridden: 1
-      - m_Value: 2
+      - m_Value: 0
         m_Name: Blend
         m_Overridden: 1
     m_Vector2f:
@@ -2885,13 +4304,13 @@ VisualEffect:
       - m_Value: {x: 0, y: 0, z: 0}
         m_Name: VectorFieldTransform_02_angles
         m_Overridden: 1
-      - m_Value: {x: 6.4, y: 6.4, z: 6.4}
+      - m_Value: {x: 5, y: 5, z: 5}
         m_Name: VectorFieldTransform_02_scale
         m_Overridden: 1
       - m_Value: {x: -0.1, y: 0.05, z: 0}
         m_Name: VectorFieldTransform_01_position
         m_Overridden: 1
-      - m_Value: {x: 5.4, y: 5.4, z: 2.7}
+      - m_Value: {x: 6, y: 6, z: 4}
         m_Name: VectorFieldTransform_01_scale
         m_Overridden: 1
       - m_Value: {x: 1, y: 1, z: 1}
@@ -2936,21 +4355,21 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0
-            value: 0.45737216
-            inSlope: 4.026728
-            outSlope: 4.026728
+            value: 1.0064492
+            inSlope: 0.6851148
+            outSlope: 0.6851148
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
-            outWeight: 0.15538761
+            outWeight: 0.19520913
           - serializedVersion: 3
             time: 1
-            value: 1.900498
-            inSlope: 0.25037134
-            outSlope: 0.25037134
+            value: 3.8949397
+            inSlope: 6.382737
+            outSlope: 6.382737
             tangentMode: 0
             weightedMode: 0
-            inWeight: 0.27203733
+            inWeight: 0.100143254
             outWeight: 0
           m_PreInfinity: 2
           m_PostInfinity: 2
@@ -2982,6 +4401,41 @@ VisualEffect:
           m_PostInfinity: 2
           m_RotationOrder: 4
         m_Name: Set Y by Speed
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.25
+            value: 0.25
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0.1769104
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: Alpha AnimationCurve
         m_Overridden: 1
     m_Gradient:
       m_Array:
@@ -3018,17 +4472,17 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0.0017797947, g: 0.36699653, b: 0.8528467, a: 1}
-          key1: {r: 0.0039215535, g: 0.21350493, b: 0.8784314, a: 1}
-          key2: {r: 0.0044619534, g: 0.32572088, b: 0.879, a: 0}
+          key0: {r: 0, g: 189.33643, b: 435.7019, a: 1}
+          key1: {r: 0.0017797947, g: 0.36699653, b: 0.8528467, a: 1}
+          key2: {r: 0.0039215535, g: 0.21350493, b: 0.8784314, a: 0}
           key3: {r: 0.0044619534, g: 0.32572088, b: 0.879, a: 0}
           key4: {r: 0.92158204, g: 0.0027317447, b: 0.20517637, a: 0}
           key5: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
           key6: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 65342
-          ctime2: 65535
+          ctime1: 2313
+          ctime2: 65342
           ctime3: 65535
           ctime4: 50693
           ctime5: 65535
@@ -3042,8 +4496,8 @@ VisualEffect:
           atime5: 0
           atime6: 0
           atime7: 0
-          m_Mode: 2
-          m_NumColorKeys: 2
+          m_Mode: 0
+          m_NumColorKeys: 3
           m_NumAlphaKeys: 2
         m_Name: Color Gradient
         m_Overridden: 1
@@ -3160,7 +4614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1654563519
 Transform:
   m_ObjectHideFlags: 0
@@ -3220,7 +4674,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032820665}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 3a4d7ec0b15e345e59b76149bc81a4d0, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: 5fee900d7d6be499aa2621365c71f053, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -3229,25 +4683,25 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 70000
+      - m_Value: 150000
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 0.008
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 0
         m_Name: Intensity A
         m_Overridden: 1
       - m_Value: 12
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: -3
+      - m_Value: -0.5
         m_Name: Brightness
         m_Overridden: 1
       - m_Value: 1
         m_Name: Intensity B
         m_Overridden: 1
-      - m_Value: 0.006
+      - m_Value: 0.007
         m_Name: Particle Size
         m_Overridden: 1
     m_Vector2f:
@@ -3255,7 +4709,7 @@ VisualEffect:
       - m_Value: {x: 1, y: 1}
         m_Name: LifeTime
         m_Overridden: 1
-      - m_Value: {x: 1.4, y: 1.6}
+      - m_Value: {x: 1.5, y: 2.5}
         m_Name: Particle LifeTime
         m_Overridden: 1
     m_Vector3f:
@@ -3281,15 +4735,18 @@ VisualEffect:
       - m_Value: {x: 0, y: 0, z: 0}
         m_Name: Transform B_position
         m_Overridden: 1
-      - m_Value: {x: 0, y: 0, z: 42.96}
+      - m_Value: {x: 28.79, y: -90, z: 0}
         m_Name: Weapon SDF Transform_angles
         m_Overridden: 1
-      - m_Value: {x: 0.9, y: 0.9, z: 0.9}
+      - m_Value: {x: 0.891, y: 0.981, z: 1.152}
         m_Name: Weapon SDF Transform_scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0.1, z: 0}
+        m_Name: Weapon SDF Transform_position
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 1, y: 1, z: 0.1, w: 10}
+      - m_Value: {x: 1, y: 3, z: 0.1, w: 100}
         m_Name: Weapon SDF Conform Factors
         m_Overridden: 1
     m_Uint:
@@ -3340,21 +4797,21 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0
-            value: 1
-            inSlope: -0.3562597
-            outSlope: -0.3562597
+            value: 1.5330579
+            inSlope: 0.6671647
+            outSlope: 0.6671647
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
-            outWeight: 0.13867481
+            outWeight: 0.30056804
           - serializedVersion: 3
             time: 1
             value: 7.156708
-            inSlope: 18.138344
-            outSlope: 18.138344
+            inSlope: 4.1688304
+            outSlope: 4.1688304
             tangentMode: 0
             weightedMode: 0
-            inWeight: 0.122504234
+            inWeight: 0.20944709
             outWeight: 0
           m_PreInfinity: 2
           m_PostInfinity: 2
@@ -3366,13 +4823,13 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0
-            value: 0.53701675
-            inSlope: 1.6844133
-            outSlope: 1.6844133
+            value: 0.5252262
+            inSlope: 0.02388366
+            outSlope: 0.02388366
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
-            outWeight: 0.053680982
+            outWeight: 0.19995692
           - serializedVersion: 3
             time: 1
             value: 1.1357465
@@ -3484,17 +4941,17 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 511.99994, g: 506.6387, b: 0, a: 1}
+          key0: {r: 127.999985, g: 126.659676, b: 0, a: 1}
           key1: {r: 1, g: 0.9830491, b: 0, a: 1}
-          key2: {r: 1, g: 0.3272367, b: 0, a: 0}
-          key3: {r: 0, g: 63.999992, b: 53.61256, a: 0}
+          key2: {r: 1, g: 0.58937454, b: 0, a: 0}
+          key3: {r: 0, g: 6.6509805, b: 8, a: 0}
           key4: {r: 0, g: 0, b: 0, a: 0}
           key5: {r: 0, g: 0, b: 0, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 6746
-          ctime2: 60716
+          ctime1: 1157
+          ctime2: 65535
           ctime3: 65535
           ctime4: 0
           ctime5: 0
@@ -3509,14 +4966,14 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_NumColorKeys: 4
+          m_NumColorKeys: 3
           m_NumAlphaKeys: 2
         m_Name: Add Random Color
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 2.8854513, g: 3.1313705, b: 0.016394611, a: 1}
-          key1: {r: 5.442418, g: 6.0086813, b: 0.15729533, a: 1}
+          key0: {r: 0, g: 0, b: 0, a: 1}
+          key1: {r: 0, g: 0, b: 0, a: 1}
           key2: {r: 0.03683211, g: 1.7358476, b: 2.630865, a: 1}
           key3: {r: 0, g: 1.5843138, b: 2.7607844, a: 0}
           key4: {r: 0, g: 49.430134, b: 88.3451, a: 0}
@@ -3524,7 +4981,7 @@ VisualEffect:
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 22745
+          ctime1: 65535
           ctime2: 37779
           ctime3: 45104
           ctime4: 60909
@@ -3540,7 +4997,7 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_NumColorKeys: 5
+          m_NumColorKeys: 2
           m_NumAlphaKeys: 2
         m_Name: Add Color Over Life
         m_Overridden: 1
@@ -3558,6 +5015,9 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: {fileID: 11700000, guid: b84fd76e498b0439991b93e9c717bc29, type: 2}
         m_Name: Weapon SDF
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 17e589197beab495eba4f797417a8bec, type: 3}
+        m_Name: Texture2D
         m_Overridden: 1
     m_Bool:
       m_Array: []
@@ -3618,7 +5078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2066263758
 Transform:
   m_ObjectHideFlags: 0
@@ -3996,10 +5456,10 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 2
+      - m_Value: 6
         m_Name: Brightness
         m_Overridden: 1
-      - m_Value: 256
+      - m_Value: 128
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 0.02
@@ -4032,7 +5492,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 2, y: 10, z: 0.2, w: 10}
+      - m_Value: {x: 1, y: 5, z: 0.2, w: 116}
         m_Name: Conform Speed Force DIstan Force
         m_Overridden: 1
       - m_Value: {x: 10, y: 100, z: 0.1, w: 50}
@@ -4094,19 +5554,19 @@ VisualEffect:
       m_Array:
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0, g: 0.8627451, b: 1.4980392, a: 1}
-          key1: {r: 0.2716494, g: 1.8050289, b: 2.630865, a: 1}
-          key2: {r: 1.1549215, g: 1.29, b: 0.067539245, a: 0}
-          key3: {r: 1.3803922, g: 1.4980392, b: 0, a: 0}
-          key4: {r: 0, g: 0.031219006, b: 1, a: 0}
+          key0: {r: 0.08418025, g: 0.9505607, b: 1.6078432, a: 1}
+          key1: {r: 0.13883933, g: 0.48111418, b: 1.6981132, a: 1}
+          key2: {r: 0.20392157, g: 0.14509806, b: 0.7490196, a: 0}
+          key3: {r: 0.20392157, g: 0.14509805, b: 0.7490196, a: 0}
+          key4: {r: 7.478213, g: 19.639242, b: 95.87451, a: 0}
           key5: {r: 0.15593581, g: 0.003921546, b: 0.92156863, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
           ctime1: 26600
-          ctime2: 32768
-          ctime3: 65535
-          ctime4: 65535
+          ctime2: 51657
+          ctime3: 52814
+          ctime4: 59945
           ctime5: 65535
           ctime6: 0
           ctime7: 0
@@ -4159,7 +5619,7 @@ VisualEffect:
       - m_Value: {fileID: 11700000, guid: b84fd76e498b0439991b93e9c717bc29, type: 2}
         m_Name: SDF Texture
         m_Overridden: 1
-      - m_Value: {fileID: 11700000, guid: 9a99dbb22d73c494db5be159105dfb1d, type: 2}
+      - m_Value: {fileID: 11700000, guid: ea2663a3f62a24998862d4fce9752f60, type: 2}
         m_Name: SDF
         m_Overridden: 1
     m_Bool:
@@ -4232,15 +5692,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798802945759670880}
-  m_LocalRotation: {x: -0.34199658, y: 0.83931005, z: 0.16375813, w: 0.38958997}
-  m_LocalPosition: {x: 0, y: 0.353, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 0.414, z: 0}
+  m_LocalScale: {x: 0.8000001, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3613984825733741541}
   m_Father: {fileID: 4484414454996240291}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -32.777, y: 139.865, z: -32.075}
+  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
 --- !u!33 &8958209441060480158
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4248,7 +5708,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798802945759670880}
-  m_Mesh: {fileID: -5495902117074765545, guid: 1ec21db552d744877bbd5546407361f9, type: 3}
+  m_Mesh: {fileID: 5346978941456628062, guid: b0f03411efc7643ae9fb5fb249335066, type: 3}
 --- !u!23 &937904583664908035
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4269,7 +5729,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b2137f1ebd8b43a2812f091565801ea, type: 2}
+  - {fileID: 2100000, guid: 2bfa46792f6304ec487514ce4234b80e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4624,39 +6084,6 @@ Transform:
   m_Father: {fileID: 6806275491481695803}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6806275491417697868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6806275491417697869}
-  m_Layer: 0
-  m_Name: Mystic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &6806275491417697869
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275491417697868}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.053351425, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6806275492940158532}
-  - {fileID: 6806275492286421394}
-  m_Father: {fileID: 6806275493326199153}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6806275491436399822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4765,17 +6192,17 @@ VisualEffect:
       - m_Value:
           serializedVersion: 2
           key0: {r: 0, g: 3.3966238, b: 11.984314, a: 1}
-          key1: {r: 1.3245457, g: 0.37844163, b: 12.047058, a: 1}
-          key2: {r: 0.03751564, g: 1, b: 0, a: 0}
-          key3: {r: 0, g: 0.9250121, b: 1, a: 0}
+          key1: {r: 0.16335516, g: 3.024394, b: 11.992052, a: 1}
+          key2: {r: 1.1901691, g: 0.6846397, b: 12.040692, a: 0}
+          key3: {r: 1.3245457, g: 0.37844163, b: 12.047058, a: 0}
           key4: {r: 0, g: 0.014861584, b: 1, a: 0}
           key5: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 3470
-          ctime1: 33539
-          ctime2: 23708
-          ctime3: 36237
+          ctime0: 0
+          ctime1: 48766
+          ctime2: 58982
+          ctime3: 65535
           ctime4: 47995
           ctime5: 65535
           ctime6: 0
@@ -4789,7 +6216,7 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_NumColorKeys: 2
+          m_NumColorKeys: 4
           m_NumAlphaKeys: 2
         m_Name: Gradient
         m_Overridden: 1
@@ -4914,6 +6341,7 @@ Transform:
   - {fileID: 1230408191}
   - {fileID: 12275270}
   - {fileID: 4484414454996240291}
+  - {fileID: 1168677006}
   m_Father: {fileID: 6806275492745347238}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4944,7 +6372,7 @@ Transform:
   m_GameObject: {fileID: 6806275491771192947}
   m_LocalRotation: {x: -0, y: -0, z: -0.0000000074505797, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.30000004, z: 0.3}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 6806275493321656559}
@@ -5010,7 +6438,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6806275491771192947}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5414,7 +6842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6806275492129249797
 Transform:
   m_ObjectHideFlags: 0
@@ -5785,192 +7213,6 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &6806275492286421423
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6806275492286421394}
-  - component: {fileID: 6806275492286421393}
-  - component: {fileID: 6806275492286421392}
-  m_Layer: 0
-  m_Name: Curcuits_Refine_2 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6806275492286421394
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275492286421423}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000074505797, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 6806275491417697869}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!2083052967 &6806275492286421393
-VisualEffect:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275492286421423}
-  m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 9a40c8a2b07b842b7a3aefcd60fc3909, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
-  m_ResourceVersion: 1
-  m_PropertySheet:
-    m_Float:
-      m_Array:
-      - m_Value: 0.01
-        m_Name: Line Direction Frequency
-        m_Overridden: 1
-      - m_Value: 0.4
-        m_Name: Line Speed Multipier
-        m_Overridden: 1
-      - m_Value: 3
-        m_Name: SampleSize
-        m_Overridden: 1
-      - m_Value: 3
-        m_Name: ConformSize
-        m_Overridden: 1
-      - m_Value: 4
-        m_Name: Brightness
-        m_Overridden: 1
-      - m_Value: 256
-        m_Name: Header Spawn Rate
-        m_Overridden: 1
-      - m_Value: 24
-        m_Name: Trigger Rate
-        m_Overridden: 1
-      - m_Value: 0.1
-        m_Name: Direction Frequency
-        m_Overridden: 1
-      - m_Value: 1
-        m_Name: Speed Multipier
-        m_Overridden: 1
-      - m_Value: 2
-        m_Name: Gradient Roughness
-        m_Overridden: 1
-    m_Vector2f:
-      m_Array: []
-    m_Vector3f:
-      m_Array:
-      - m_Value: {x: 3, y: 0.5, z: 0}
-        m_Name: Sample Noise
-        m_Overridden: 1
-      - m_Value: {x: 3, y: 3, z: 3}
-        m_Name: Field Transform_scale
-        m_Overridden: 1
-    m_Vector4f:
-      m_Array: []
-    m_Uint:
-      m_Array: []
-    m_Int:
-      m_Array: []
-    m_Matrix4x4f:
-      m_Array: []
-    m_AnimationCurve:
-      m_Array: []
-    m_Gradient:
-      m_Array:
-      - m_Value:
-          serializedVersion: 2
-          key0: {r: 1, g: 0.7812411, b: 0, a: 1}
-          key1: {r: 1, g: 0.01666665, b: 0, a: 1}
-          key2: {r: 1, g: 0, b: 0, a: 0}
-          key3: {r: 0, g: 0.9250121, b: 1, a: 0}
-          key4: {r: 0, g: 0.014861584, b: 1, a: 0}
-          key5: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-          key6: {r: 0, g: 0, b: 0, a: 0}
-          key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 0
-          ctime1: 40285
-          ctime2: 65535
-          ctime3: 36237
-          ctime4: 47995
-          ctime5: 65535
-          ctime6: 0
-          ctime7: 0
-          atime0: 0
-          atime1: 65535
-          atime2: 0
-          atime3: 0
-          atime4: 0
-          atime5: 0
-          atime6: 0
-          atime7: 0
-          m_Mode: 0
-          m_NumColorKeys: 3
-          m_NumAlphaKeys: 2
-        m_Name: Gradient
-        m_Overridden: 1
-    m_NamedObject:
-      m_Array:
-      - m_Value: {fileID: 11700000, guid: 685c863e6625def488e718d402095837, type: 2}
-        m_Name: SDF
-        m_Overridden: 1
-      - m_Value: {fileID: 11700000, guid: a4bedc04803a17e40ab57ea2b29477dd, type: 2}
-        m_Name: SDF Texture
-        m_Overridden: 1
-    m_Bool:
-      m_Array:
-      - m_Value: 0
-        m_Name: Direction Mode
-        m_Overridden: 1
---- !u!73398921 &6806275492286421392
-VFXRenderer:
-  serializedVersion: 1
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275492286421423}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &6806275492391587390
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,13 +7304,13 @@ VisualEffect:
       - m_Value: 5
         m_Name: Initial Color Cycle Duration
         m_Overridden: 1
-      - m_Value: 9
+      - m_Value: 12
         m_Name: Intensity
         m_Overridden: 1
       - m_Value: 0.035
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 2
+      - m_Value: 4
         m_Name: Intensity A
         m_Overridden: 1
       - m_Value: 6
@@ -6102,13 +7344,13 @@ VisualEffect:
       - m_Value: {x: 90, y: 0, z: 0}
         m_Name: Transform A_angles
         m_Overridden: 1
-      - m_Value: {x: 6, y: 6, z: 3}
+      - m_Value: {x: 6, y: 6, z: 5}
         m_Name: Transform A_scale
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1}
+      - m_Value: {x: 0.5, y: 0.5, z: 0.5}
         m_Name: Transform_scale
         m_Overridden: 1
-      - m_Value: {x: 0, y: 45, z: 0}
+      - m_Value: {x: 0, y: 60, z: 0}
         m_Name: Transform_angles
         m_Overridden: 1
     m_Vector4f:
@@ -6239,19 +7481,19 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0, g: 0.917565, b: 1.6078432, a: 1}
-          key1: {r: 0.074238546, g: 0, b: 0.84313726, a: 1}
-          key2: {r: 0.15453748, g: 0, b: 1.6226416, a: 0}
+          key0: {r: 0, g: 29.36208, b: 51.45098, a: 1}
+          key1: {r: 0.009055591, g: 0.854663, b: 1.5465505, a: 1}
+          key2: {r: 0.112980396, g: 0.13277993, b: 0.84313726, a: 0}
           key3: {r: 0.15453748, g: 0, b: 1.6226416, a: 0}
-          key4: {r: 0.15453748, g: 0, b: 1.6226416, a: 0}
+          key4: {r: 2.5826333, g: 0, b: 25.96226, a: 0}
           key5: {r: 0, g: 0, b: 0, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
-          ctime1: 29684
-          ctime2: 63029
-          ctime3: 63029
-          ctime4: 63029
+          ctime1: 1735
+          ctime2: 50501
+          ctime3: 63800
+          ctime4: 65535
           ctime5: 0
           ctime6: 0
           ctime7: 0
@@ -6264,7 +7506,7 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_NumColorKeys: 3
+          m_NumColorKeys: 5
           m_NumAlphaKeys: 2
         m_Name: Color Gradient
         m_Overridden: 1
@@ -6385,431 +7627,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &6806275492940158529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6806275492940158532}
-  - component: {fileID: 6806275492940158531}
-  - component: {fileID: 6806275492940158530}
-  m_Layer: 0
-  m_Name: Curcuits_Refine_2 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6806275492940158532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275492940158529}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000074505797, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 6806275491417697869}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!2083052967 &6806275492940158531
-VisualEffect:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275492940158529}
-  m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 9a40c8a2b07b842b7a3aefcd60fc3909, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
-  m_ResourceVersion: 1
-  m_PropertySheet:
-    m_Float:
-      m_Array:
-      - m_Value: 0.01
-        m_Name: Line Direction Frequency
-        m_Overridden: 1
-      - m_Value: 0.4
-        m_Name: Line Speed Multipier
-        m_Overridden: 1
-      - m_Value: 3
-        m_Name: SampleSize
-        m_Overridden: 1
-      - m_Value: 3
-        m_Name: ConformSize
-        m_Overridden: 1
-      - m_Value: 4
-        m_Name: Brightness
-        m_Overridden: 1
-      - m_Value: 256
-        m_Name: Header Spawn Rate
-        m_Overridden: 1
-      - m_Value: 24
-        m_Name: Trigger Rate
-        m_Overridden: 1
-      - m_Value: 0.1
-        m_Name: Direction Frequency
-        m_Overridden: 1
-      - m_Value: 1
-        m_Name: Speed Multipier
-        m_Overridden: 1
-      - m_Value: 2
-        m_Name: Gradient Roughness
-        m_Overridden: 1
-    m_Vector2f:
-      m_Array: []
-    m_Vector3f:
-      m_Array:
-      - m_Value: {x: 3, y: 0.5, z: 0}
-        m_Name: Sample Noise
-        m_Overridden: 1
-      - m_Value: {x: 3, y: 3, z: 3}
-        m_Name: Field Transform_scale
-        m_Overridden: 1
-    m_Vector4f:
-      m_Array: []
-    m_Uint:
-      m_Array: []
-    m_Int:
-      m_Array: []
-    m_Matrix4x4f:
-      m_Array: []
-    m_AnimationCurve:
-      m_Array: []
-    m_Gradient:
-      m_Array:
-      - m_Value:
-          serializedVersion: 2
-          key0: {r: 1, g: 0.7812411, b: 0, a: 1}
-          key1: {r: 1, g: 0.01666665, b: 0, a: 1}
-          key2: {r: 1, g: 0, b: 0, a: 0}
-          key3: {r: 0, g: 0.9250121, b: 1, a: 0}
-          key4: {r: 0, g: 0.014861584, b: 1, a: 0}
-          key5: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-          key6: {r: 0, g: 0, b: 0, a: 0}
-          key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 0
-          ctime1: 40285
-          ctime2: 65535
-          ctime3: 36237
-          ctime4: 47995
-          ctime5: 65535
-          ctime6: 0
-          ctime7: 0
-          atime0: 0
-          atime1: 65535
-          atime2: 0
-          atime3: 0
-          atime4: 0
-          atime5: 0
-          atime6: 0
-          atime7: 0
-          m_Mode: 0
-          m_NumColorKeys: 3
-          m_NumAlphaKeys: 2
-        m_Name: Gradient
-        m_Overridden: 1
-    m_NamedObject:
-      m_Array:
-      - m_Value: {fileID: 11700000, guid: 685c863e6625def488e718d402095837, type: 2}
-        m_Name: SDF
-        m_Overridden: 1
-      - m_Value: {fileID: 11700000, guid: ff0f3055dcdce80418b390909d076f22, type: 2}
-        m_Name: SDF Texture
-        m_Overridden: 1
-    m_Bool:
-      m_Array:
-      - m_Value: 1
-        m_Name: Direction Mode
-        m_Overridden: 1
---- !u!73398921 &6806275492940158530
-VFXRenderer:
-  serializedVersion: 1
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275492940158529}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &6806275493014797314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6806275493014797317}
-  - component: {fileID: 6806275493014797316}
-  - component: {fileID: 6806275493014797315}
-  m_Layer: 0
-  m_Name: field
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &6806275493014797317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275493014797314}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 6806275493326199153}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!2083052967 &6806275493014797316
-VisualEffect:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275493014797314}
-  m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: d61439a216366ef4aa9a2efb3999396e, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
-  m_ResourceVersion: 1
-  m_PropertySheet:
-    m_Float:
-      m_Array:
-      - m_Value: 2
-        m_Name: Brightness
-        m_Overridden: 1
-      - m_Value: 5
-        m_Name: Initial Color Cycle Duration
-        m_Overridden: 1
-      - m_Value: 0.01
-        m_Name: Size
-        m_Overridden: 1
-      - m_Value: 200000
-        m_Name: Spawn Rate
-        m_Overridden: 1
-    m_Vector2f:
-      m_Array:
-      - m_Value: {x: 0.3, y: 0.6}
-        m_Name: Sphere MinMax Radius
-        m_Overridden: 1
-    m_Vector3f:
-      m_Array:
-      - m_Value: {x: 0.1, y: 0.1, z: 0}
-        m_Name: VectorFieldTransform_position
-        m_Overridden: 1
-      - m_Value: {x: -0.05, y: -0.1, z: 0}
-        m_Name: VectorFieldTransform2_position
-        m_Overridden: 1
-      - m_Value: {x: 5, y: 5, z: 6}
-        m_Name: VectorFieldTransform2_scale
-        m_Overridden: 1
-      - m_Value: {x: 5, y: 5, z: 6}
-        m_Name: VectorFieldTransform_scale
-        m_Overridden: 1
-    m_Vector4f:
-      m_Array: []
-    m_Uint:
-      m_Array: []
-    m_Int:
-      m_Array: []
-    m_Matrix4x4f:
-      m_Array: []
-    m_AnimationCurve:
-      m_Array:
-      - m_Value:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 0
-            inSlope: 2
-            outSlope: 2
-            tangentMode: 34
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0.33333334
-          - serializedVersion: 3
-            time: 1
-            value: 2
-            inSlope: 2
-            outSlope: 2
-            tangentMode: 34
-            weightedMode: 0
-            inWeight: 0.33333334
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        m_Name: Scale y by Speed
-        m_Overridden: 1
-    m_Gradient:
-      m_Array:
-      - m_Value:
-          serializedVersion: 2
-          key0: {r: 0, g: 0, b: 0, a: 1}
-          key1: {r: 0.52156866, g: 0.06666666, b: 0.33960804, a: 1}
-          key2: {r: 2.93506, g: 0.17610362, b: 0.17610362, a: 0.7019608}
-          key3: {r: 6.7907395, g: 2.6665208, b: 0.31998232, a: 0.03529412}
-          key4: {r: 0, g: 0, b: 0, a: 0}
-          key5: {r: 0, g: 0, b: 0, a: 0}
-          key6: {r: 0, g: 0, b: 0, a: 0}
-          key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 0
-          ctime1: 23214
-          ctime2: 33103
-          ctime3: 49537
-          ctime4: 65535
-          ctime5: 65535
-          ctime6: 0
-          ctime7: 0
-          atime0: 0
-          atime1: 65535
-          atime2: 55143
-          atime3: 65535
-          atime4: 0
-          atime5: 0
-          atime6: 0
-          atime7: 0
-          m_Mode: 0
-          m_NumColorKeys: 5
-          m_NumAlphaKeys: 2
-        m_Name: Color Over Life
-        m_Overridden: 1
-      - m_Value:
-          serializedVersion: 2
-          key0: {r: 502.8375, g: 0, b: 128.38402, a: 1}
-          key1: {r: 1471.1888, g: 346.57114, b: 4.6868024, a: 1}
-          key2: {r: 865.4277, g: 8.217857, b: 8.217857, a: 0}
-          key3: {r: 442.1459, g: 2.4484525, b: 113.64074, a: 0}
-          key4: {r: 442.1459, g: 2.4484525, b: 113.64074, a: 0}
-          key5: {r: 0, g: 0, b: 0, a: 0}
-          key6: {r: 0, g: 0, b: 0, a: 0}
-          key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 84
-          ctime1: 21588
-          ctime2: 45296
-          ctime3: 65535
-          ctime4: 65535
-          ctime5: 0
-          ctime6: 0
-          ctime7: 0
-          atime0: 0
-          atime1: 65535
-          atime2: 0
-          atime3: 0
-          atime4: 0
-          atime5: 0
-          atime6: 0
-          atime7: 0
-          m_Mode: 0
-          m_NumColorKeys: 4
-          m_NumAlphaKeys: 2
-        m_Name: Initial Color Cycle
-        m_Overridden: 1
-    m_NamedObject:
-      m_Array:
-      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
-          type: 3}
-        m_Name: outerVectorField
-        m_Overridden: 1
-      - m_Value: {fileID: 11700000, guid: f662c302c8a327e43876518a53c684c5, type: 2}
-        m_Name: VectorField
-        m_Overridden: 1
-      - m_Value: {fileID: 11700000, guid: f81258a7458d2374c973886f70314cbc, type: 2}
-        m_Name: VectorField2
-        m_Overridden: 1
-      - m_Value: {fileID: 6775435000000457311, guid: 1892d88db29785e4cbeab70caa89ea71,
-          type: 3}
-        m_Name: VectorField_Surface
-        m_Overridden: 1
-    m_Bool:
-      m_Array: []
---- !u!73398921 &6806275493014797315
-VFXRenderer:
-  serializedVersion: 1
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275493014797314}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &6806275493252464072
 GameObject:
   m_ObjectHideFlags: 0
@@ -6842,125 +7659,6 @@ Transform:
   m_Father: {fileID: 6806275492391587391}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6806275493277153500
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6806275493277153503}
-  - component: {fileID: 6806275493277153502}
-  - component: {fileID: 6806275493277153501}
-  m_Layer: 0
-  m_Name: AcientArt-Shield
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6806275493277153503
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275493277153500}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6806275493326199153}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!2083052967 &6806275493277153502
-VisualEffect:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275493277153500}
-  m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 09211801fcf544ee280737d22ee6e14d, type: 3}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
-  m_ResourceVersion: 1
-  m_PropertySheet:
-    m_Float:
-      m_Array:
-      - m_Value: 1.3
-        m_Name: Size
-        m_Overridden: 1
-      - m_Value: 0
-        m_Name: InitParticleRate
-        m_Overridden: 1
-      - m_Value: 0.455
-        m_Name: Health
-        m_Overridden: 1
-    m_Vector2f:
-      m_Array: []
-    m_Vector3f:
-      m_Array: []
-    m_Vector4f:
-      m_Array: []
-    m_Uint:
-      m_Array: []
-    m_Int:
-      m_Array: []
-    m_Matrix4x4f:
-      m_Array: []
-    m_AnimationCurve:
-      m_Array: []
-    m_Gradient:
-      m_Array: []
-    m_NamedObject:
-      m_Array: []
-    m_Bool:
-      m_Array: []
---- !u!73398921 &6806275493277153501
-VFXRenderer:
-  serializedVersion: 1
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6806275493277153500}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 257
-  m_RendererPriority: 0
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &6806275493321656558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6976,7 +7674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6806275493321656559
 Transform:
   m_ObjectHideFlags: 0
@@ -7005,7 +7703,7 @@ GameObject:
   - component: {fileID: 6806275493326199153}
   - component: {fileID: 812760759}
   m_Layer: 0
-  m_Name: Mystic_2
+  m_Name: Mystic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7024,9 +7722,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6806275492129249797}
-  - {fileID: 6806275493277153503}
-  - {fileID: 6806275493014797317}
-  - {fileID: 6806275491417697869}
+  - {fileID: 723463148}
+  - {fileID: 7001552456961044084}
   m_Father: {fileID: 6806275491481695803}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7189,7 +7886,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7104482506002317961}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 61268fdfea344422d8372a246cc51e87, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: 9fe2e2137e6514e599a35f319919073c, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -7198,22 +7895,22 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 75000
+      - m_Value: 150000
         m_Name: Spawn Rate
         m_Overridden: 1
       - m_Value: 0.008
         m_Name: Size
         m_Overridden: 1
-      - m_Value: 2
+      - m_Value: 0.75
         m_Name: Intensity A
         m_Overridden: 1
-      - m_Value: 32
+      - m_Value: 24
         m_Name: Intensity
         m_Overridden: 1
-      - m_Value: 4
+      - m_Value: 1
         m_Name: Brightness
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 0.5
         m_Name: Intensity B
         m_Overridden: 1
       - m_Value: 0.005
@@ -7224,7 +7921,7 @@ VisualEffect:
       - m_Value: {x: 1, y: 1}
         m_Name: LifeTime
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1}
+      - m_Value: {x: 1, y: 3}
         m_Name: Particle LifeTime
         m_Overridden: 1
     m_Vector3f:
@@ -7238,22 +7935,22 @@ VisualEffect:
       - m_Value: {x: 0, y: 0, z: 0}
         m_Name: Transform A_position
         m_Overridden: 1
-      - m_Value: {x: 2, y: 1, z: 2}
+      - m_Value: {x: 1.8, y: 0.5, z: 1.8}
         m_Name: Transform A_scale
         m_Overridden: 1
-      - m_Value: {x: 0, y: -45, z: 0}
+      - m_Value: {x: 0, y: 0, z: 0}
         m_Name: Transform A_angles
         m_Overridden: 1
-      - m_Value: {x: 1.4, y: 1, z: 1.4}
+      - m_Value: {x: 2, y: 1, z: 2}
         m_Name: Transform B_scale
         m_Overridden: 1
-      - m_Value: {x: 0, y: 0, z: 0}
+      - m_Value: {x: 0, y: 0.14, z: 0}
         m_Name: Transform B_position
         m_Overridden: 1
-      - m_Value: {x: 0, y: 0, z: 45.67}
+      - m_Value: {x: -90, y: 90, z: 0}
         m_Name: Weapon SDF Transform_angles
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1}
+      - m_Value: {x: 1.4, y: 1.4, z: 1.4}
         m_Name: Weapon SDF Transform_scale
         m_Overridden: 1
       - m_Value: {x: 0, y: 0, z: 0}
@@ -7261,7 +7958,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 0, y: 0, z: 0.1, w: 100}
+      - m_Value: {x: 5, y: 5, z: 0.1, w: 99}
         m_Name: Weapon SDF Conform Factors
         m_Overridden: 1
     m_Uint:
@@ -7277,7 +7974,7 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0
-            value: 0
+            value: 0.383096
             inSlope: 0.061962556
             outSlope: 0.061962556
             tangentMode: 0
@@ -7295,7 +7992,7 @@ VisualEffect:
             outWeight: 0
           - serializedVersion: 3
             time: 0.96940184
-            value: 0.49573177
+            value: 0.828493
             inSlope: 0
             outSlope: 0
             tangentMode: 0
@@ -7338,21 +8035,21 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 34
+            value: 0.42081663
+            inSlope: 0.1403947
+            outSlope: 0.1403947
+            tangentMode: 0
             weightedMode: 0
             inWeight: 0
-            outWeight: 0
+            outWeight: 0.15618323
           - serializedVersion: 3
             time: 1
             value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 34
+            inSlope: -0.056973837
+            outSlope: -0.056973837
+            tangentMode: 0
             weightedMode: 0
-            inWeight: 0
+            inWeight: 0.16477895
             outWeight: 0
           m_PreInfinity: 2
           m_PostInfinity: 2
@@ -7456,18 +8153,18 @@ VisualEffect:
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
-          key0: {r: 0, g: 0.77254903, b: 0.41466373, a: 1}
-          key1: {r: 0.0044619534, g: 0.32572088, b: 0.879, a: 1}
-          key2: {r: 0.20392157, g: 0.14509805, b: 0.7490196, a: 0}
-          key3: {r: 0, g: 32, b: 26.710052, a: 0}
-          key4: {r: 0.31197995, g: 0, b: 0.0013795069, a: 0}
+          key0: {r: 0, g: 0, b: 0, a: 1}
+          key1: {r: 0.020972548, g: 1.4980392, b: 1.2882286, a: 1}
+          key2: {r: 0.0060392153, g: 0.08943786, b: 0.43137255, a: 0}
+          key3: {r: 0.0062587964, g: 0.14091037, b: 0.89411765, a: 0}
+          key4: {r: 8.031373, g: 116.4549, b: 766.9961, a: 0}
           key5: {r: 0, g: 0, b: 0, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
-          ctime0: 29491
-          ctime1: 65535
-          ctime2: 52814
-          ctime3: 65535
+          ctime0: 0
+          ctime1: 21203
+          ctime2: 42983
+          ctime3: 64379
           ctime4: 65535
           ctime5: 0
           ctime6: 0
@@ -7481,25 +8178,25 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_NumColorKeys: 2
+          m_NumColorKeys: 5
           m_NumAlphaKeys: 2
         m_Name: Add Random Color
         m_Overridden: 1
       - m_Value:
           serializedVersion: 2
           key0: {r: 0, g: 0, b: 0, a: 1}
-          key1: {r: 1, g: 1, b: 1, a: 1}
-          key2: {r: 0, g: 32.314335, b: 44.17255, a: 1}
-          key3: {r: 0, g: 32.314335, b: 44.17255, a: 0}
-          key4: {r: 0, g: 32.314335, b: 44.17255, a: 0}
+          key1: {r: 0, g: 0, b: 0, a: 1}
+          key2: {r: 0.030069433, g: 0.10824997, b: 0.433, a: 1}
+          key3: {r: 0.068366095, g: 0.19341046, b: 0.89322364, a: 0}
+          key4: {r: 7.478213, g: 19.639242, b: 95.87451, a: 0}
           key5: {r: 0, g: 0, b: 0, a: 0}
           key6: {r: 0, g: 0, b: 0, a: 0}
           key7: {r: 0, g: 0, b: 0, a: 0}
           ctime0: 0
           ctime1: 65535
-          ctime2: 60909
-          ctime3: 60909
-          ctime4: 60909
+          ctime2: 35273
+          ctime3: 49730
+          ctime4: 59945
           ctime5: 0
           ctime6: 0
           ctime7: 0
@@ -7528,7 +8225,7 @@ VisualEffect:
       - m_Value: {fileID: 11700000, guid: 4315ec977dd117d43a3f6b39d932aff8, type: 2}
         m_Name: SDF B
         m_Overridden: 1
-      - m_Value: {fileID: 11700000, guid: 1c533577ad76754408adf5d94529c0d0, type: 2}
+      - m_Value: {fileID: 11700000, guid: ea2663a3f62a24998862d4fce9752f60, type: 2}
         m_Name: Weapon SDF
         m_Overridden: 1
     m_Bool:
@@ -7573,3 +8270,183 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &6806275491695473781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1168677006}
+    m_Modifications:
+    - target: {fileID: 2108112213053449898, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Value
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108112213053449903, guid: b7b90997847df49cf92617b3c4229a62,
+        type: 3}
+      propertyPath: m_Name
+      value: AcientArt-Shield
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7b90997847df49cf92617b3c4229a62, type: 3}
+--- !u!4 &4842842519404417753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2108112213053449900, guid: b7b90997847df49cf92617b3c4229a62,
+    type: 3}
+  m_PrefabInstance: {fileID: 6806275491695473781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6806275491748815079
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6806275493326199153}
+    m_Modifications:
+    - target: {fileID: 4566154840346955409, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[13].m_Value
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955410, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566154840346955420, guid: 8fc463a3f4208474fb4af6961b77281d,
+        type: 3}
+      propertyPath: m_Name
+      value: AcientArt-Shield
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fc463a3f4208474fb4af6961b77281d, type: 3}
+--- !u!4 &7001552456961044084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4566154840346955411, guid: 8fc463a3f4208474fb4af6961b77281d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6806275491748815079}
+  m_PrefabAsset: {fileID: 0}

@@ -1523,7 +1523,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614849}
       inputSlot: {fileID: 8926484042661615516}
-    position: {x: 653, y: 398}
+    position: {x: 705, y: 503}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614849
@@ -1707,7 +1707,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614866}
   - {fileID: 8926484042661615866}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: color
   Composition: 0
   AlphaComposition: 0
@@ -5589,7 +5589,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615516}
   m_OutputSlots: []
-  m_Disabled: 1
+  m_Disabled: 0
   attribute: color
   Composition: 0
   AlphaComposition: 0
