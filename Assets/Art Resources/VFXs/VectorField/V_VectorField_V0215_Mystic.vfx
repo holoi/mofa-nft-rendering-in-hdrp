@@ -32,7 +32,7 @@ MonoBehaviour:
   - name: Initalization
     collapsed: 0
   - name: Particles
-    collapsed: 0
+    collapsed: 1
   - name: Base SDF
     collapsed: 0
   - name: 'ShapleFixer: SDF A'
@@ -43,10 +43,10 @@ MonoBehaviour:
     collapsed: 0
   uiBounds:
     serializedVersion: 2
-    x: -750
+    x: -898
     y: -327
-    width: 3050
-    height: 3927
+    width: 3198
+    height: 3987
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -105,6 +105,9 @@ MonoBehaviour:
   - {fileID: 8926484042661616421}
   - {fileID: 8926484042661616425}
   - {fileID: 8926484042661616427}
+  - {fileID: 8926484042661616475}
+  - {fileID: 8926484042661616485}
+  - {fileID: 8926484042661616487}
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
@@ -151,8 +154,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Add Random Color
-    path: Add Random Color
+  - name: Set Random Color
+    path: Set Random Color
     tooltip: 
     sheetType: m_Gradient
     realType: Gradient
@@ -386,6 +389,20 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
+  - name: Drag
+    path: Drag
+    tooltip: 
+    sheetType: m_Float
+    realType: Single
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
   - name: 'ShapleFixer: SDF A'
     path: 
     tooltip: 
@@ -482,6 +499,20 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
+  - name: Drag A
+    path: Drag A
+    tooltip: 
+    sheetType: m_Float
+    realType: Single
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
   - name: 'Shaple Fixer: SDF B'
     path: 
     tooltip: 
@@ -574,6 +605,20 @@ MonoBehaviour:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
       m_SerializableObject: 0
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Drag B
+    path: Drag B
+    tooltip: 
+    sheetType: m_Float
+    realType: Single
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -696,8 +741,8 @@ VisualEffectResource:
       lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
-    m_PreWarmDeltaTime: 0.00125
-    m_PreWarmStepCount: 1
+    m_PreWarmDeltaTime: 0.01
+    m_PreWarmStepCount: 1000
     m_InitialEventName: OnPlay
     m_InstancingMode: -1
     m_InstancingCapacity: 64
@@ -1280,9 +1325,9 @@ MonoBehaviour:
   - {fileID: 8926484042661615024}
   - {fileID: 8926484042661615394}
   - {fileID: 8926484042661615871}
-  - {fileID: 8926484042661616007}
   - {fileID: 8926484042661616401}
   - {fileID: 8926484042661616460}
+  - {fileID: 8926484042661616007}
   m_UIPosition: {x: 941, y: 699}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
@@ -1755,14 +1800,14 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614849}
-  m_ExposedName: Add Random Color
+  m_ExposedName: Set Random Color
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 17
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -1969,7 +2014,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614892}
   m_ExposedName: SDF A
   m_Exposed: 1
-  m_Order: 18
+  m_Order: 1
   m_Category: 'ShapleFixer: SDF A'
   m_Min:
     m_Type:
@@ -2214,7 +2259,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615017}
   m_ExposedName: Brightness
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 21
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -2233,7 +2278,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615017}
       inputSlot: {fileID: 8926484042661615528}
-    position: {x: 1233.5, y: 3149}
+    position: {x: 1436, y: 3178.5}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615017
@@ -2417,11 +2462,12 @@ MonoBehaviour:
   - {fileID: 8926484042661615025}
   - {fileID: 8926484042661615026}
   - {fileID: 8926484042661615039}
+  - {fileID: 8926484042661616471}
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661616445}
   DataEncoding: 1
-  Mode: 0
+  Mode: 1
   ClosedField: 0
   ConserveMagnitude: 0
 --- !u!114 &8926484042661615025
@@ -2962,7 +3008,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615213}
   m_ExposedName: Transform A
   m_Exposed: 1
-  m_Order: 20
+  m_Order: 3
   m_Category: 'ShapleFixer: SDF A'
   m_Min:
     m_Type:
@@ -3469,11 +3515,12 @@ MonoBehaviour:
   - {fileID: 8926484042661615395}
   - {fileID: 8926484042661615396}
   - {fileID: 8926484042661615409}
+  - {fileID: 8926484042661616477}
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661616446}
   DataEncoding: 0
-  Mode: 0
+  Mode: 1
   ClosedField: 1
   ConserveMagnitude: 1
 --- !u!114 &8926484042661615395
@@ -4286,7 +4333,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615457}
   m_ExposedName: Transform
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 4
   m_Category: Base SDF
   m_Min:
     m_Type:
@@ -4780,7 +4827,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615474}
   m_ExposedName: Intensity
   m_Exposed: 1
-  m_Order: 21
+  m_Order: 7
   m_Category: Base SDF
   m_Min:
     m_Type:
@@ -4923,7 +4970,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615482}
   m_ExposedName: Particle Size
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 19
   m_Category: Particles
   m_Min:
     m_Type:
@@ -4942,7 +4989,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615482}
       inputSlot: {fileID: 8926484042661615476}
-    position: {x: 1687.5, y: 2712.5}
+    position: {x: 1652.5, y: 2812}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615482
@@ -5003,7 +5050,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615487}
   m_ExposedName: Intensity A
   m_Exposed: 1
-  m_Order: 22
+  m_Order: 8
   m_Category: 'ShapleFixer: SDF A'
   m_Min:
     m_Type:
@@ -5083,7 +5130,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615496}
   m_ExposedName: Particle LifeTime
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 11
   m_Category: Particles
   m_Min:
     m_Type:
@@ -5466,7 +5513,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1338, y: 2854}
+  m_UIPosition: {x: 1606, y: 2896}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5569,7 +5616,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615514}
   m_ExposedName: Set Y by Speed
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 23
   m_Category: Particles
   m_Min:
     m_Type:
@@ -5588,7 +5635,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615514}
       inputSlot: {fileID: 8926484042661615501}
-    position: {x: 1394.5, y: 2932}
+    position: {x: 1597, y: 2974}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615514
@@ -5714,7 +5761,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615525}
   m_ExposedName: Alpha Over Life
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 22
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -5733,7 +5780,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615525}
       inputSlot: {fileID: 8926484042661615519}
-    position: {x: 1382, y: 3219}
+    position: {x: 1597, y: 3277}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615525
@@ -5786,7 +5833,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1404, y: 3071}
+  m_UIPosition: {x: 1606, y: 3100}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5994,7 +6041,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615643}
   m_ExposedName: Spawn Rate
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 5
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -6074,7 +6121,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615802}
   m_ExposedName: Texture2D
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 25
   m_Category: Particles
   m_Min:
     m_Type:
@@ -6218,11 +6265,12 @@ MonoBehaviour:
   - {fileID: 8926484042661615872}
   - {fileID: 8926484042661615873}
   - {fileID: 8926484042661615886}
+  - {fileID: 8926484042661616478}
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661616447}
   DataEncoding: 0
-  Mode: 0
+  Mode: 1
   ClosedField: 1
   ConserveMagnitude: 1
 --- !u!114 &8926484042661615872
@@ -6761,7 +6809,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615921}
   m_ExposedName: SDF B
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 2
   m_Category: 'Shaple Fixer: SDF B'
   m_Min:
     m_Type:
@@ -6780,7 +6828,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615921}
       inputSlot: {fileID: 8926484042661615872}
-    position: {x: 620.5, y: 1224.5}
+    position: {x: 693.5, y: 1366}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615921
@@ -6841,7 +6889,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615923}
   m_ExposedName: Transform B
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 6
   m_Category: 'Shaple Fixer: SDF B'
   m_Min:
     m_Type:
@@ -6860,7 +6908,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615923}
       inputSlot: {fileID: 8926484042661615873}
-    position: {x: 585, y: 1261.5}
+    position: {x: 658, y: 1403}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615923
@@ -7329,7 +7377,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615937}
   m_ExposedName: Intensity B
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 9
   m_Category: 'Shaple Fixer: SDF B'
   m_Min:
     m_Type:
@@ -7348,7 +7396,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615937}
       inputSlot: {fileID: 8926484042661615886}
-    position: {x: 595, y: 1305.5}
+    position: {x: 668, y: 1447}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615937
@@ -7464,7 +7512,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 638, y: 3467}
+  m_UIPosition: {x: 652, y: 3527}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -7625,7 +7673,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 906, y: 3501}
+  m_UIPosition: {x: 920, y: 3561}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -7822,7 +7870,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1218, y: 3410}
+  m_UIPosition: {x: 1232, y: 3470}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8066,7 +8114,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1556, y: 3355}
+  m_UIPosition: {x: 1570, y: 3415}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8202,7 +8250,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615984}
   m_ExposedName: Alpha By Speed
   m_Exposed: 1
-  m_Order: 13
+  m_Order: 24
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -8221,7 +8269,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661615984}
       inputSlot: {fileID: 8926484042661615977}
-    position: {x: 1262.5, y: 3357.5}
+    position: {x: 1276.5, y: 3417.5}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615984
@@ -8316,7 +8364,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615996}
   m_ExposedName: Spawn Box Size
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 15
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -8563,7 +8611,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616006}
   m_ExposedName: Add Color Over Life
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 20
   m_Category: Initalization
   m_Min:
     m_Type:
@@ -8582,7 +8630,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616006}
       inputSlot: {fileID: 8926484042661616001}
-    position: {x: 1380, y: 2997}
+    position: {x: 1582.5, y: 3026.5}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616006
@@ -9289,7 +9337,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616068}
   m_ExposedName: Weapon SDF
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 10
   m_Category: Weapon SDF
   m_Min:
     m_Type:
@@ -9308,14 +9356,14 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616068}
       inputSlot: {fileID: 8926484042661616008}
-    position: {x: 582, y: 1350.5}
+    position: {x: 619, y: 2150}
     expandedSlots: []
     expanded: 0
   - m_Id: 4
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616068}
       inputSlot: {fileID: 8926484042661616348}
-    position: {x: -638, y: 1667.5}
+    position: {x: -879.5, y: 2080}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616068
@@ -9377,7 +9425,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616070}
   m_ExposedName: Weapon SDF Transform
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 16
   m_Category: Weapon SDF
   m_Min:
     m_Type:
@@ -9396,7 +9444,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616070}
       inputSlot: {fileID: 8926484042661616009}
-    position: {x: 522.5, y: 1388.5}
+    position: {x: 557, y: 2201}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661616070
@@ -9865,7 +9913,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616084}
   m_ExposedName: Weapon SDF Conform Factors
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 18
   m_Category: Weapon SDF
   m_Min:
     m_Type:
@@ -9884,7 +9932,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661616084}
       inputSlot: {fileID: 8926484042661616391}
-    position: {x: 202.5, y: 1439.5}
+    position: {x: 92, y: 2122}
     expandedSlots: []
     expanded: 1
 --- !u!114 &8926484042661616084
@@ -10073,7 +10121,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 224, y: 1649}
+  m_UIPosition: {x: 92, y: 2252}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -10201,7 +10249,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -436, y: 1678}
+  m_UIPosition: {x: -584, y: 2171}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11080,7 +11128,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -750, y: 1777}
+  m_UIPosition: {x: -898, y: 2270}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -11241,7 +11289,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -30, y: 1638}
+  m_UIPosition: {x: -178, y: 2131}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11485,7 +11533,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 522, y: 1522}
+  m_UIPosition: {x: 450, y: 2252}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -11898,7 +11946,7 @@ MonoBehaviour:
   m_Parent: {fileID: 8926484042661614583}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661616402}
@@ -12541,7 +12589,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 630, y: 1899}
+  m_UIPosition: {x: 634, y: 1723}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -12677,7 +12725,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 416, y: 1769}
+  m_UIPosition: {x: 408, y: 1578}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -12734,7 +12782,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 630, y: 1769}
+  m_UIPosition: {x: 622, y: 1578}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -13118,7 +13166,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
+      m_SerializableObject: False
     m_Space: 2147483647
   m_Property:
     name: _vfx_enabled
@@ -13322,7 +13370,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
+      m_SerializableObject: False
     m_Space: 2147483647
   m_Property:
     name: _vfx_enabled
@@ -13390,7 +13438,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
+      m_SerializableObject: True
     m_Space: 2147483647
   m_Property:
     name: _vfx_enabled
@@ -13797,3 +13845,348 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
   m_LinkedSlots: []
+--- !u!114 &8926484042661616471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616471}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661615024}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: 2147483647
+  m_Property:
+    name: Drag
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots:
+  - {fileID: 8926484042661616476}
+--- !u!114 &8926484042661616475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330e0fca1717dde4aaa144f48232aa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 114350483966674976}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_InputSlots: []
+  m_OutputSlots:
+  - {fileID: 8926484042661616476}
+  m_ExposedName: Drag
+  m_Exposed: 1
+  m_Order: 12
+  m_Category: Base SDF
+  m_Min:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_Max:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_IsOutput: 0
+  m_EnumValues: []
+  m_ValueFilter: 0
+  m_Tooltip: 
+  m_Nodes:
+  - m_Id: 0
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661616476}
+      inputSlot: {fileID: 8926484042661616471}
+    position: {x: 665, y: 979}
+    expandedSlots: []
+    expanded: 0
+--- !u!114 &8926484042661616476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616476}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661616475}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: 2147483647
+  m_Property:
+    name: o
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 1
+  m_LinkedSlots:
+  - {fileID: 8926484042661616471}
+--- !u!114 &8926484042661616477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616477}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661615394}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: 2147483647
+  m_Property:
+    name: Drag
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots:
+  - {fileID: 8926484042661616488}
+--- !u!114 &8926484042661616478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616478}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661615871}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: 2147483647
+  m_Property:
+    name: Drag
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots:
+  - {fileID: 8926484042661616486}
+--- !u!114 &8926484042661616485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330e0fca1717dde4aaa144f48232aa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 114350483966674976}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_InputSlots: []
+  m_OutputSlots:
+  - {fileID: 8926484042661616486}
+  m_ExposedName: Drag B
+  m_Exposed: 1
+  m_Order: 13
+  m_Category: 'Shaple Fixer: SDF B'
+  m_Min:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_Max:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_IsOutput: 0
+  m_EnumValues: []
+  m_ValueFilter: 0
+  m_Tooltip: 
+  m_Nodes:
+  - m_Id: 0
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661616486}
+      inputSlot: {fileID: 8926484042661616478}
+    position: {x: 634.5, y: 1498.5}
+    expandedSlots: []
+    expanded: 0
+--- !u!114 &8926484042661616486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616486}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661616485}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: 2147483647
+  m_Property:
+    name: o
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 1
+  m_LinkedSlots:
+  - {fileID: 8926484042661616478}
+--- !u!114 &8926484042661616487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330e0fca1717dde4aaa144f48232aa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 114350483966674976}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_InputSlots: []
+  m_OutputSlots:
+  - {fileID: 8926484042661616488}
+  m_ExposedName: Drag A
+  m_Exposed: 1
+  m_Order: 14
+  m_Category: 'ShapleFixer: SDF A'
+  m_Min:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_Max:
+    m_Type:
+      m_SerializableType: 
+    m_SerializableObject: 
+  m_IsOutput: 0
+  m_EnumValues: []
+  m_ValueFilter: 0
+  m_Tooltip: 
+  m_Nodes:
+  - m_Id: 0
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661616488}
+      inputSlot: {fileID: 8926484042661616477}
+    position: {x: 634.5, y: 1225}
+    expandedSlots: []
+    expanded: 0
+--- !u!114 &8926484042661616488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616488}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661616487}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 1
+    m_Space: 2147483647
+  m_Property:
+    name: o
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 1
+  m_LinkedSlots:
+  - {fileID: 8926484042661616477}

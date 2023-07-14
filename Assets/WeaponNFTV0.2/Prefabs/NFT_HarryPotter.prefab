@@ -70,7 +70,7 @@ VisualEffect:
       - m_Value: {x: 0.3, y: 1.3, z: 0.3}
         m_Name: Transform_scale
         m_Overridden: 1
-      - m_Value: {x: 2, y: 2, z: 2}
+      - m_Value: {x: 8, y: 2, z: 8}
         m_Name: Init Transform_scale
         m_Overridden: 1
       - m_Value: {x: 1.4, y: 1.2, z: 1.4}
@@ -80,7 +80,10 @@ VisualEffect:
         m_Name: SDF Volume Size
         m_Overridden: 1
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 5, y: 5, z: 5, w: 5}
+        m_Name: Conform Force Init
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -103,7 +106,7 @@ VisualEffect:
             outWeight: 0
           - serializedVersion: 3
             time: 1
-            value: -0.82797027
+            value: -0.023210898
             inSlope: 8.750035
             outSlope: 8.750035
             tangentMode: 0
