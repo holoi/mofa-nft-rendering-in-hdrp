@@ -122,3 +122,26 @@ Animation Window:
 
 <img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/b5009fda-2f47-4034-a45f-6c93c75e06df" width="640">
 
+## Create you own visuals
+
+Using Unity SDF Bake Tool is the fastest way to create your own sdf textures for "Weapon":
+
+1. Create or download a 3d model
+2. Import to Unity.
+3. Open SDF Bake Tool, drag the mesh to it and bake.
+For more information about how to use SDF Bake Tool: https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@15.0/manual/sdf-bake-tool.html#:~:text=The%20SDF%20Bake%20Tool%20is,use%20in%20a%20visual%20effect.
+
+
+Using external tools to vreate your sdf textures for "Field"
+
+1. There are some sdf textures under: "NFT"->"Weapons Resources"->"SDFTextures", you can drag them into "Field" objedct to try it out. 
+2. If you got your own sdf textures, import to Unity and drag to "Field".
+3. Recommended Tools：
+  vectoraygen: https://jangafx.com/software/vectoraygen/
+
+
+
+## Reference
+
+1. https://github.com/keijiro/SdfVfxSamples
+2. https://github.com/keijiro/SushiVfx
