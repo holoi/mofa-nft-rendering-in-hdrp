@@ -52,7 +52,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: float.Intensity A
-    path: V_VectorField_MysticArt
+    path: Field
     classID: 2083052967
     script: {fileID: 0}
     flags: 0
@@ -65,7 +65,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2241408903
+      path: 2587126364
       attribute: 3587699224
       script: {fileID: 0}
       typeID: 2083052967
@@ -130,7 +130,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: float.Intensity A
-    path: V_VectorField_MysticArt
+    path: Field
     classID: 2083052967
     script: {fileID: 0}
     flags: 0

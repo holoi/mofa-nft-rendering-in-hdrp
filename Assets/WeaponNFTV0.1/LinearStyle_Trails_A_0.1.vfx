@@ -4143,7 +4143,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615833}
   m_ExposedName: Color Gradient
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 5
   m_Category: Display
   m_Min:
     m_Type:
@@ -5573,7 +5573,7 @@ MonoBehaviour:
   m_Parent: {fileID: 8926484042661614779}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661616007}
@@ -7479,7 +7479,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616427}
   m_ExposedName: Init Transform
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 13
   m_Category: SDF
   m_Min:
     m_Type:
@@ -7974,7 +7974,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616444}
   m_ExposedName: Spawn Rate
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Display
   m_Min:
     m_Type:
@@ -8975,7 +8975,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616497}
   m_ExposedName: Level
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 2
   m_Category: Level
   m_Min:
     m_Type:
@@ -9566,7 +9566,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616519}
   m_ExposedName: Brightness Over Level
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 3
   m_Category: Level
   m_Min:
     m_Type:
@@ -10019,7 +10019,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616560}
   m_ExposedName: Alpha Over Life
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 9
   m_Category: Display
   m_Min:
     m_Type:
@@ -10099,7 +10099,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616567}
   m_ExposedName: Texture2D
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: Display
   m_Min:
     m_Type:
@@ -10179,7 +10179,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616572}
   m_ExposedName: Size Over Level
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 6
   m_Category: Level
   m_Min:
     m_Type:
@@ -10594,7 +10594,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616591}
   m_ExposedName: Brightness
   m_Exposed: 1
-  m_Order: 13
+  m_Order: 17
   m_Category: Animation
   m_Min:
     m_Type:
@@ -10674,7 +10674,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616593}
   m_ExposedName: Alpha
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 15
   m_Category: Animation
   m_Min:
     m_Type:
@@ -10853,7 +10853,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616668}
   m_ExposedName: Final Transform
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 16
   m_Category: SDF
   m_Min:
     m_Type:
@@ -11348,7 +11348,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616682}
   m_ExposedName: SDF Volume Size
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 11
   m_Category: SDF
   m_Min:
     m_Type:
@@ -13006,7 +13006,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616750}
   m_ExposedName: Force Over Level
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 12
   m_Category: Level
   m_Min:
     m_Type:
@@ -13086,7 +13086,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616752}
   m_ExposedName: Conform Force Init
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 8
   m_Category: Level
   m_Min:
     m_Type:
@@ -13302,7 +13302,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616758}
   m_ExposedName: Conform Force Final
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 10
   m_Category: Level
   m_Min:
     m_Type:
@@ -13518,7 +13518,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616767}
   m_ExposedName: Header LifeTime
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 4
   m_Category: Display
   m_Min:
     m_Type:
@@ -14709,7 +14709,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616805}
   m_ExposedName: Turb Over Level
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 14
   m_Category: Level
   m_Min:
     m_Type:
