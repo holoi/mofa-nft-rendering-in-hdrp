@@ -1,4 +1,5 @@
-![image](https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/ef1b5725-7299-4e01-ac72-1858535607d6)# mofa-nft-rendering-in-hdrp
+# mofa-nft-rendering-in-hdrp
+
 This is the rendering project for the MOFA project, primarily responsible for creating and outputting visual content for MOFA NFTs. In this project, there are 9 early versions(Version 0.1) of NFT visual content and 4(Version 0.2) created during the 2023 Flow Hackathon, located in the scenes 'Assets->Nft0.1->Scene.1' and 'Assets->Nft0.2->Scenes->Scene'.
 
 ## Demo
