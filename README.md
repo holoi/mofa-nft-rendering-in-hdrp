@@ -1,5 +1,5 @@
 # mofa-nft-rendering-in-hdrp
-This is the rendering project for the MOFA project, primarily responsible for creating and outputting visual content for MOFA NFTs. In this project, there are 9 early versions of NFT visual content and 3 created during the 2023 Flow Hackathon, located in the scenes 'NFT Version 1' and 'NFT Version 2_Flow'.
+This is the rendering project for the MOFA project, primarily responsible for creating and outputting visual content for MOFA NFTs. In this project, there are 9 early versions of NFT visual content and 4 created during the 2023 Flow Hackathon, located in the scenes 'Assets->WeaponNFTV0.1->WeaponVersion0.1' and 'Assets->WeaponNFTV0.2->Scenes->NFT_TimeLine_RecordingScene'.
 
 ## Demo
 ### Version 0.1
