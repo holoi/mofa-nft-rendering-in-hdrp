@@ -94,28 +94,31 @@ Among all nfgt game objects in a version of 0.1, they are generally composed of 
 
 In the force field objects, there is a set of properties controlling the basic content of a particle system, such as the lifespan, particle count, size, color, etc., which are easy to understand, and you can adjust parameters to observe changes. 
 
-![image](https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/bfdb1b09-a493-433a-a7ed-5e3dfa617c5b)
-
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/bfdb1b09-a493-433a-a7ed-5e3dfa617c5b" width="480px">
+<img src="" width="480">
 
 In addition, the force field utilizes two SDFs to control the direction and magnitude of forces in the field. Here, we can modify properties like size, rotation, scale of SDFs to adjust the force field effects.
 
-![image](https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/7aaa1ccf-0206-4a9b-b3bf-03bcb5160ca4)
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/7aaa1ccf-0206-4a9b-b3bf-03bcb5160ca4" width="480">
 
 Here we provide some SDF Textures under path: Assets->Textures->Field SDFs. Try it out by yourself.
 
 In the weapon obejcts, the main shape controled by a SDF texture.
 
-![image](https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/e3d81860-de8e-4132-8ab2-ae7480ae1bd0)
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/e3d81860-de8e-4132-8ab2-ae7480ae1bd0" width="480">
+
 
 There is a set of properties controlling the basic content of a particle system, such as the lifespan, particle count, size, color, etc., which are easy to understand, and you can adjust parameters to observe changes. 
 
-![image](https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/80eb1552-173f-4269-81fc-d69f7cd798ff)
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/80eb1552-173f-4269-81fc-d69f7cd798ff" width="480">
+
 
 Nft objects in a version of 0.2 got a set of properties related to "Level", in our design, those nft objects grows along the level, shape and brightness changes during the process. Addtionally, Nft objects in a version of 0.2 have Animator component to diaplay the process of growth. Select object, open animator window and press "Space" to play the animation.
 
-![image](https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/348d84bc-1822-4b8a-8402-97fb618ca073)
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/348d84bc-1822-4b8a-8402-97fb618ca073" width="480">
+
 
 Animation Window:
 
-<img width="649" alt="image" src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/b5009fda-2f47-4034-a45f-6c93c75e06df">
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/b5009fda-2f47-4034-a45f-6c93c75e06df" width="640">
 
