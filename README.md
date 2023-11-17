@@ -90,7 +90,7 @@ Unity: 2023.3.12f1 and above.
 ## How to try it
 Among all nfgt game objects in a version of 0.1, they are generally composed of two parts: the weapon visuals("Weapon" GameObject) and the surrounding force field visuals("Field" GameObject). The visual aspects of all NFT objects are primarily handled by the Visual Effect Graph.
 
-<img width="286" alt="image" src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/789478da-00ee-42c1-91c4-a5bf6e0d2bbc">
+<img width="480" alt="image" src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/789478da-00ee-42c1-91c4-a5bf6e0d2bbc">
 
 In the force field objects, there is a set of properties controlling the basic content of a particle system, such as the lifespan, particle count, size, color, etc., which are easy to understand, and you can adjust parameters to observe changes. 
 
@@ -115,7 +115,7 @@ There is a set of properties controlling the basic content of a particle system,
 
 Nft objects in a version of 0.2 got a set of properties related to "Level", in our design, those nft objects grows along the level, shape and brightness changes during the process. Addtionally, Nft objects in a version of 0.2 have Animator component to diaplay the process of growth. Select object, open animator window and press "Space" to play the animation.
 
-<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/348d84bc-1822-4b8a-8402-97fb618ca073" width="480">
+<img src="https://github.com/holoi/mofa-nft-rendering-in-hdrp/assets/52849063/348d84bc-1822-4b8a-8402-97fb618ca073" width="960">
 
 
 Animation Window:
